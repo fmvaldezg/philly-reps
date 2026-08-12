@@ -11,7 +11,9 @@ export default {
     output: "static",
     favicon: "./assets/favicon.png",
   },
-  plugins: ["expo-router"],
+  // maplibre-react-native has native modules — it needs a prebuilt dev
+  // client (expo prebuild), it won't run in plain Expo Go.
+  plugins: ["expo-router", "@maplibre/maplibre-react-native"],
   experiments: {
     tsconfigPaths: true,
   },

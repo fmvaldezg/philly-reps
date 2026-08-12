@@ -33,7 +33,7 @@ export default [
     },
   },
   {
-    files: ["scripts/**/*.ts"],
+    files: ["scripts/**/*.{ts,mjs}"],
     languageOptions: {
       parser: tsparser,
       parserOptions: { ecmaVersion: 2022, sourceType: "module" },
@@ -60,6 +60,24 @@ export default [
       parserOptions: { ecmaVersion: 2022, sourceType: "module" },
       globals: {
         fetch: "readonly",
+      },
+    },
+    plugins: { "@typescript-eslint": tseslint },
+    rules: {
+      ...tseslint.configs.recommended.rules,
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_" },
+      ],
+    },
+  },
+  {
+    files: ["**/*.web.{ts,tsx}"],
+    languageOptions: {
+      parser: tsparser,
+      parserOptions: { ecmaVersion: 2022, sourceType: "module" },
+      globals: {
+        HTMLDivElement: "readonly",
       },
     },
     plugins: { "@typescript-eslint": tseslint },
@@ -109,7 +127,15 @@ export default [
     },
   },
   {
-    ignores: ["node_modules/", "dist/", ".expo/", "coverage/"],
+    ignores: [
+      "node_modules/",
+      "dist/",
+      ".expo/",
+      "coverage/",
+      // vendored copies of maplibre-gl's worker files (scripts/copy-maplibre-worker.mjs)
+      "public/maplibre-gl-worker.mjs",
+      "public/maplibre-gl-shared.mjs",
+    ],
   },
   prettier,
 ];

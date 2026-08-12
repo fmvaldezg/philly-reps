@@ -9,7 +9,10 @@
  *   1. Fetches the upstream GeoJSON from the URL recorded in docs/DATA-SOURCES.md.
  *   2. Validates the response shape (feature count, expected property names).
  *   3. Simplifies with mapshaper at ~0.5% tolerance (SPEC.md target).
- *   4. Writes the simplified GeoJSON to assets/districts/<id>.geojson.
+ *   4. Writes the simplified GeoJSON to the layer's geometryPath (registry.ts),
+ *      as plain .json — the app bundles it via a static import, same as
+ *      assets/data/*.json, so it must be an extension every bundler already
+ *      treats as JSON.
  *
  * The bundled file is the only thing the app reads at runtime. The upstream
  * URL is a build-time dependency only.
@@ -22,7 +25,7 @@
 
 import { execFileSync } from "node:child_process";
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 
 import { districtRegistry } from "../src/lib/districts/registry.ts";
 import type { DistrictId, DistrictLayer } from "../src/lib/districts/types.ts";
@@ -49,11 +52,7 @@ const UPSTREAM: Record<
     expectedFeatures: 17,
   },
   "pa-senate": {
-    // A4 verified block lists the PennShare dataset page, not a direct query URL.
-    // This is the candidate direct URL — MUST be confirmed against the live
-    // response before use. Step 2 only builds the council layer; this entry is
-    // a placeholder until step 6.
-    url: "https://data-pennshare.opendata.arcgis.com/datasets/PennShare::pennsylvania-senate-districts",
+    url: "https://data-pennshare.opendata.arcgis.com/api/download/v1/items/90adf2f516544dfebbe346a11eefce97/geojson?layers=0",
     expectedFeatures: 50,
   },
   "pa-house": {
@@ -110,10 +109,12 @@ function clipToCityLimits(layer: DistrictLayer, rawPath: string): string {
   // Council districts are already coterminous with the city, so clipping is a
   // no-op for them — but state/federal layers (step 6) are statewide and MUST
   // be clipped. We run the clip unconditionally so the pipeline is uniform.
-  const cityLimitsPath = join(OUT_DIR, "city-limits.geojson");
+  const cityLimits = districtRegistry.find((l) => l.id === "city-limits");
+  if (!cityLimits) throw new Error("city-limits missing from registry");
+  const cityLimitsPath = cityLimits.geometryPath;
   if (!existsSync(cityLimitsPath)) {
     throw new Error(
-      `city-limits.geojson not built — run "pnpm data:build city-limits" first`,
+      `${cityLimits.geometryPath} not built — run "pnpm data:build city-limits" first`,
     );
   }
   const clippedPath = join(TMP_DIR, `${layer.id}-clipped.geojson`);
@@ -193,7 +194,7 @@ function buildLayer(id: DistrictId, outName?: string): void {
   const rawPath = fetchUpstream(layer);
   validateRaw(layer, rawPath);
   const clippedPath = clipToCityLimits(layer, rawPath);
-  const name = outName ?? `${layer.id}.geojson`;
+  const name = outName ?? basename(layer.geometryPath);
   simplify(layer, clippedPath, name);
 }
 

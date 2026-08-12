@@ -1,34 +1,54 @@
 /**
- * Results list — groups officials by level (Federal → State → City).
- * SPEC.md user flow #5: "grouped by level (Federal → State → City), each
- * card = office, name, party, district number, contact methods, verified date".
+ * Results list — one tab per TabGroup (SPEC.md user flow #5), each
+ * color-coded via LevelTabs. The active tab's cards render below it.
+ * `focusedLayerId`/`focusedDistrictNumber`/`onFocusOffice` thread through to
+ * each card so tapping one highlights its district on the map (SPEC.md user
+ * flow #6); switching tabs does the same via `onSelectGroup` (HomeScreen
+ * picks a default office for the newly active tab).
  *
- * Iterates the district registry for layer labels — does not hardcode layer
- * names. When no rep data is available yet (step 7), shows a placeholder
- * per resolved district explaining the office exists but has no contact data.
+ * An official belongs to a tab if it's that tab's level and either that
+ * tab's specific layer (district-based offices) or no layer at all
+ * (statewide/citywide offices, which have no single district to disambiguate
+ * on — they show on every tab for their level).
  */
 
 import { StyleSheet, Text, View } from "react-native";
 
-import { colors, geometry, levelColor } from "../styles/tokens";
+import { colors, geometry } from "../styles/tokens";
+import { LevelTabs } from "./LevelTabs";
 import { OfficialCard } from "./OfficialCard";
-import type { DistrictLevel } from "../lib/districts/types";
-import type { LookupResult } from "../lib/reps/types";
-import type { Official } from "../lib/reps/types";
+import type { TabGroup } from "../lib/districts/types";
+import type { LookupResult, Office, Official } from "../lib/reps/types";
 
 interface ResultsListProps {
   result: LookupResult;
+  groups: readonly TabGroup[];
+  activeKey: string;
+  onSelectGroup: (group: TabGroup) => void;
+  focusedLayerId?: string | null | undefined;
+  focusedDistrictNumber?: string | null | undefined;
+  onFocusOffice?: ((office: Office) => void) | undefined;
 }
 
-const LEVEL_ORDER: DistrictLevel[] = ["federal", "state", "city"];
-const LEVEL_LABELS: Record<DistrictLevel, string> = {
-  federal: "Federal",
-  state: "State",
-  city: "City",
-};
-
-export function ResultsList({ result }: ResultsListProps) {
-  const byLevel = groupByLevel(result.officials);
+export function ResultsList({
+  result,
+  groups,
+  activeKey,
+  onSelectGroup,
+  focusedLayerId,
+  focusedDistrictNumber,
+  onFocusOffice,
+}: ResultsListProps) {
+  const counts: Record<string, number> = {};
+  for (const group of groups) {
+    counts[group.key] = result.officials.filter((o) =>
+      belongsToGroup(o, group),
+    ).length;
+  }
+  const activeGroup = groups.find((g) => g.key === activeKey);
+  const activeOfficials = activeGroup
+    ? result.officials.filter((o) => belongsToGroup(o, activeGroup))
+    : [];
 
   return (
     <View style={styles.wrap}>
@@ -37,26 +57,29 @@ export function ResultsList({ result }: ResultsListProps) {
         <Text style={styles.matchedAddress}>{result.matchedAddress}</Text>
       </View>
 
-      {LEVEL_ORDER.map((level) => {
-        const officials = byLevel[level] ?? [];
-        if (officials.length === 0) return null;
-        return (
-          <View key={level} style={styles.section}>
-            <View
-              style={[
-                styles.sectionHeader,
-                { borderLeftColor: levelColor(level) },
-              ]}
-            >
-              <Text style={styles.sectionTitle}>{LEVEL_LABELS[level]}</Text>
-              <Text style={styles.sectionCount}>{officials.length}</Text>
-            </View>
-            {officials.map((o) => (
-              <OfficialCard key={o.office.id} official={o} />
-            ))}
-          </View>
-        );
-      })}
+      {result.officials.length > 0 ? (
+        <LevelTabs
+          groups={groups}
+          counts={counts}
+          activeKey={activeKey}
+          onSelect={onSelectGroup}
+        />
+      ) : null}
+
+      <View style={styles.section}>
+        {activeOfficials.map((o) => (
+          <OfficialCard
+            key={o.office.id}
+            official={o}
+            focused={
+              o.office.layerId != null &&
+              o.office.layerId === focusedLayerId &&
+              o.office.districtNumber === focusedDistrictNumber
+            }
+            onFocus={onFocusOffice}
+          />
+        ))}
+      </View>
 
       {result.officials.length === 0 ? (
         <View style={styles.empty}>
@@ -70,21 +93,15 @@ export function ResultsList({ result }: ResultsListProps) {
   );
 }
 
-function groupByLevel(
-  officials: readonly Official[],
-): Record<DistrictLevel, Official[]> {
-  const out: Record<DistrictLevel, Official[]> = {
-    federal: [],
-    state: [],
-    city: [],
-  };
-  for (const o of officials) out[o.office.level].push(o);
-  return out;
+function belongsToGroup(official: Official, group: TabGroup): boolean {
+  const { level, layerId } = official.office;
+  if (level !== group.level) return false;
+  return layerId === group.layerId || layerId == null;
 }
 
 const styles = StyleSheet.create({
   wrap: {
-    gap: 24,
+    gap: 16,
   },
   matchedWrap: {
     gap: 4,
@@ -103,22 +120,6 @@ const styles = StyleSheet.create({
   },
   section: {
     gap: 12,
-  },
-  sectionHeader: {
-    flexDirection: "row",
-    alignItems: "baseline",
-    gap: 8,
-    borderLeftWidth: 4,
-    paddingLeft: 12,
-  },
-  sectionTitle: {
-    fontSize: 20,
-    fontWeight: "700",
-    color: colors.text,
-  },
-  sectionCount: {
-    fontSize: 14,
-    color: colors.muted,
   },
   empty: {
     padding: 16,

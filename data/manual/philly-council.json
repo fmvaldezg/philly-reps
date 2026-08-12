@@ -192,6 +192,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-katherine-gilmore-richardson"
     },
     "cityHallOffice": {
@@ -207,6 +208,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-isaiah-thomas"
     },
     "cityHallOffice": {
@@ -222,6 +224,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-jim-harrity"
     },
     "cityHallOffice": {
@@ -237,6 +240,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-nina-ahmad"
     },
     "cityHallOffice": {
@@ -252,6 +256,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-rue-landau"
     },
     "cityHallOffice": {
@@ -267,6 +272,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-kendra-brooks"
     },
     "cityHallOffice": {
@@ -282,6 +288,7 @@
       "title": "City Council, At-Large",
       "level": "city",
       "layerId": "council",
+      "districtNumber": null,
       "id": "philly-council-at-large-nicolas-o-rourke"
     },
     "cityHallOffice": {

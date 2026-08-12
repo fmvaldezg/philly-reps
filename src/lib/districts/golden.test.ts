@@ -8,11 +8,11 @@
  * expected value is non-null.
  */
 
-import { describe, expect, it, beforeAll } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { FixturesSchema, type Fixture } from "./fixtures.schema";
 import fixturesRaw from "./fixtures.json";
-import { resolveDistricts, clearLayerCache } from "./resolve";
+import { resolveDistricts } from "./resolve";
 import { asLngLat } from "../geo/types";
 
 const parsed = FixturesSchema.safeParse(fixturesRaw);
@@ -22,12 +22,6 @@ if (!parsed.success) {
 const fixtures = parsed.data as Fixture[];
 
 describe("golden fixtures: council district resolution", () => {
-  beforeAll(() => {
-    // Each test re-loads layers from cache; clear once at the start so a
-    // previous test run's cache (if any) doesn't mask a stale file.
-    clearLayerCache();
-  });
-
   for (const fixture of fixtures) {
     const councilExpected = fixture.expected.council;
     // Skip fixtures that don't assert a council district.

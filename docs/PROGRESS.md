@@ -4,22 +4,24 @@
 
 ### Core library (`src/lib/`)
 - **Types & Result**: `src/lib/result.ts` (Result<T,E>), `src/lib/geo/types.ts` (LngLat), `src/lib/districts/types.ts` (DistrictLayer, DistrictLevel), `src/lib/reps/types.ts` (Official, Office, LookupResult)
-- **District registry**: `src/lib/districts/registry.ts` — 5 layers (city-limits, council, congress, pa-senate, pa-house)
-- **Resolver**: `src/lib/districts/resolve.ts` — point-in-polygon against bundled GeoJSON, skips boundary layers
+- **District registry**: `src/lib/districts/registry.ts` — 5 layers (city-limits, council, congress, pa-senate, pa-house), all built
+- **Resolver**: `src/lib/districts/resolve.ts` — point-in-polygon against bundled GeoJSON, loaded via static imports (not the filesystem — this runs in the browser and the native app, not just Node). `getLayerGeoJSON()` also backs the map's polygon drawing.
 - **Geocoder**: `src/lib/geo/geocode.ts` — Census geocoder client with zod validation, `normalizeAddress()` appends "Philadelphia, PA" when missing
-- **Rep lookup**: `src/lib/reps/lookup.ts` — `resolveAndLookup()` orchestrates geocode → resolve districts → match reps
+- **Rep lookup**: `src/lib/reps/lookup.ts` — `resolveAndLookup()` orchestrates geocode → resolve districts → match reps against all 5 layers plus statewide/citywide offices
 
 ### Data
-- `assets/districts/city-limits.geojson` — Philly boundary (1 feature)
-- `assets/districts/council-2024.geojson` — 10 council districts, clipped & simplified
+- `assets/districts/city-limits.json`, `council.json`, `congress.json`, `pa-senate.json`,
+  `pa-house.json` — all 5 district layers, clipped & simplified, ~516 KB total (SPEC budget: ~1.5 MB)
 - `assets/data/federal.json` — 19 PA federal reps (17 House + 2 Senate), from congress-legislators
 - `assets/data/state.json` — 252 PA state reps, from Open States
 - `data/manual/philly-council.json` — 17 city council members (10 districts + 7 at-large), hand-maintained
 
-### UI (web only)
-- `src/components/HomeScreen.tsx` — address input → geocode → confirm → resolve → results
-- `src/components/ResultsList.tsx` — groups officials by Federal / State / City
-- `src/components/OfficialCard.tsx` — renders office, name, party, contact methods; "Not listed" for missing fields
+### UI (web verified; native written but unverified — see below)
+- `src/components/HomeScreen.tsx` — address input → geocode → confirm → resolve → results + map
+- `src/components/ResultsList.tsx` / `OfficialCard.tsx` — grouped by level; cards for district-based
+  offices are tappable and highlight their polygon on the map
+- `src/components/Map.web.tsx` (maplibre-gl) / `Map.native.tsx` (@maplibre/maplibre-react-native) —
+  OpenFreeMap Positron basemap, marker at the geocoded point, focused district's boundary
 - Uses design tokens from `src/styles/tokens.ts` — no hardcoded hex
 
 ### CORS proxy
@@ -28,16 +30,20 @@
 - `src/lib/net/fetch.ts` (native passthrough) vs `src/lib/net/fetch.web.ts` (rewrites Census URLs to `/api/geocode`)
 
 ### Build scripts
-- `scripts/build-council.ts` — fetches council districts, clips to city limits, simplifies, writes GeoJSON
-- `scripts/build-reps.ts` — fetches C1 (congress-legislators) + C2 (Open States), filters to PA, joins on bioguide_id, writes `assets/data/federal.json` + `assets/data/state.json`
-- `scripts/verify-data.ts` — `pnpm data:verify`, checks every district file loads and every rep has source_url + verified_on
-
-## Current issue
-
-`lookupReps()` in `src/lib/reps/lookup.ts` was a stub returning `[]`. Wired it up to load the three rep data files and match by layerId + districtNumber. Added debug logging to diagnose why the UI still shows "representative contact data is not available yet" — the JSON imports may not be reaching the Metro bundle.
+- `scripts/build-districts.ts` — fetches a district layer, clips to city limits, simplifies, writes
+  `assets/districts/<id>.json` (`pnpm data:build <id>` or `--all`)
+- `scripts/build-reps.ts` — fetches C1 (congress-legislators) + C2 (Open States), filters to PA, joins
+  on bioguide_id, writes `assets/data/federal.json` + `state.json` (`pnpm data:build:reps`)
+- `scripts/verify-data.ts` — `pnpm data:verify`, checks every district file loads and every rep has
+  source_url + verified_on
 
 ## What's left
-1. Fix rep lookup (in progress — debugging JSON import resolution)
-2. Step 5: Map with user's point + highlighted polygon
-3. Step 6: Remaining district layers (congress, pa-senate, pa-house)
-4. Step 8: Accessibility pass
+1. Citywide row offices (Mayor, DA, Controller, Sheriff, Commissioners, Register of Wills) and PA
+   statewide officials (Governor, Lt. Gov, AG, Auditor General, Treasurer) — `DATA-SOURCES.md` C5/C6,
+   still unbuilt.
+2. Native map is written but not visually verified — no iOS/Android simulator in this environment.
+   Needs `expo prebuild` + a dev-client rebuild (it has native modules, won't run in Expo Go), then a
+   real device/simulator check.
+3. Step 8: Accessibility pass.
+4. "Tapping a polygon scrolls to its card" (SPEC user flow #6, the map→card direction) is not wired —
+   only card→map is.

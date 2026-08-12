@@ -4,14 +4,15 @@
  * The whole app works offline after the geocode. No API keys, no rate limits,
  * results in milliseconds. Bounding-box prefilter before the polygon test.
  *
- * Coordinates are [lng, lat] everywhere (GeoJSON convention). The resolver
- * never calls a network — it reads bundled files from assets/districts/.
+ * Coordinates are [lng, lat] everywhere (GeoJSON convention). Layer geometry
+ * is bundled via static imports (below) so it ships in the web and native
+ * bundles the same way `assets/data/*.json` already does — this module must
+ * never touch the filesystem, since it runs in the browser and in the native
+ * app, not just in Node.
  */
 
 import booleanPointInPolygon from "@turf/boolean-point-in-polygon";
-import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
-import { dirname, join, resolve } from "node:path";
+import bbox from "@turf/bbox";
 import type {
   Feature,
   FeatureCollection,
@@ -22,7 +23,13 @@ import type {
 import { err, ok, type Result } from "../result.ts";
 import { type LngLat } from "../geo/types.ts";
 import { districtLayers } from "./registry.ts";
-import type { DistrictLayer, ResolvedDistrict } from "./types.ts";
+import type { DistrictId, DistrictLayer, ResolvedDistrict } from "./types.ts";
+
+import cityLimitsGeoJSON from "../../../assets/districts/city-limits.json";
+import councilGeoJSON from "../../../assets/districts/council.json";
+import congressGeoJSON from "../../../assets/districts/congress.json";
+import paSenateGeoJSON from "../../../assets/districts/pa-senate.json";
+import paHouseGeoJSON from "../../../assets/districts/pa-house.json";
 
 export type ResolveError =
   | { kind: "out-of-bounds" }
@@ -37,90 +44,32 @@ export interface ResolveResult {
   districts: ReadonlyArray<ResolvedDistrict | ResolveError>;
 }
 
-/**
- * In-memory cache of loaded layers. Keyed by geometryPath so a layer is
- * parsed once per process. Tests can clear it with {@link clearLayerCache}.
- */
-const layerCache = new Map<string, FeatureCollection<Polygon | MultiPolygon>>();
+type DistrictFeatureCollection = FeatureCollection<Polygon | MultiPolygon>;
 
 /**
- * Resolve a layer's geometryPath (project-relative) to an absolute path.
- * geometryPath is like "assets/districts/council.geojson"; we anchor it to
- * the project root (two levels up from this file: src/lib/districts -> root).
+ * Bundled layer geometry, keyed by layer id. Only layers that have been
+ * built (`pnpm data:build <id>`) appear here — `getLayerGeoJSON` reports the
+ * rest as `layer-load-failed` rather than throwing at import time.
  */
-function resolveGeometryPath(geometryPath: string): string {
-  const here = dirname(fileURLToPath(import.meta.url));
-  const projectRoot = resolve(here, "..", "..", "..");
-  return join(projectRoot, geometryPath);
-}
-
-/** Load a layer's GeoJSON from disk. Cached per process. */
-export function loadLayer(
-  layer: DistrictLayer,
-): FeatureCollection<Polygon | MultiPolygon> {
-  const cached = layerCache.get(layer.geometryPath);
-  if (cached) return cached;
-
-  const absPath = resolveGeometryPath(layer.geometryPath);
-  const raw = readFileSync(absPath, "utf8");
-  const fc = JSON.parse(raw) as FeatureCollection<Polygon | MultiPolygon>;
-  layerCache.set(layer.geometryPath, fc);
-  return fc;
-}
-
-export function clearLayerCache(): void {
-  layerCache.clear();
-}
-
-/** Bounding box of a feature's coordinates, [west, south, east, north]. */
-function featureBBox(
-  feature: Feature<Polygon | MultiPolygon>,
-): [number, number, number, number] {
-  let west = Infinity;
-  let south = Infinity;
-  let east = -Infinity;
-  let north = -Infinity;
-  const geom = feature.geometry;
-  if (!geom) return [0, 0, 0, 0];
-
-  // Walk every position in every ring. Polygon: Position[][]; MultiPolygon:
-  // Position[][][]. Position is `number | Position[]` per @types/geojson, so we
-  // recurse until we hit a number.
-  const visit = (pos: unknown): void => {
-    if (typeof pos === "number") return;
-    if (!Array.isArray(pos)) return;
-    if (pos.length === 0) return;
-    // If the first element is a number, this is a coordinate pair.
-    if (typeof pos[0] === "number") {
-      const lng = pos[0] as number;
-      const lat = pos[1] as number | undefined;
-      if (lat !== undefined) {
-        if (lng < west) west = lng;
-        if (lat < south) south = lat;
-        if (lng > east) east = lng;
-        if (lat > north) north = lat;
-      }
-      return;
-    }
-    // Otherwise it's a nested array — recurse.
-    for (const child of pos) visit(child);
+const BUNDLED_GEOJSON: Partial<Record<DistrictId, DistrictFeatureCollection>> =
+  {
+    "city-limits": cityLimitsGeoJSON as unknown as DistrictFeatureCollection,
+    council: councilGeoJSON as unknown as DistrictFeatureCollection,
+    congress: congressGeoJSON as unknown as DistrictFeatureCollection,
+    "pa-senate": paSenateGeoJSON as unknown as DistrictFeatureCollection,
+    "pa-house": paHouseGeoJSON as unknown as DistrictFeatureCollection,
   };
 
-  if (geom.type === "Polygon") {
-    for (const ring of geom.coordinates) for (const pos of ring) visit(pos);
-  } else {
-    for (const poly of geom.coordinates)
-      for (const ring of poly) for (const pos of ring) visit(pos);
-  }
-  return [west, south, east, north];
+/** Look up a layer's bundled GeoJSON. Also used by the map to draw a polygon. */
+export function getLayerGeoJSON(
+  layerId: DistrictId,
+): DistrictFeatureCollection | undefined {
+  return BUNDLED_GEOJSON[layerId];
 }
 
-function inBBox(
-  point: LngLat,
-  bbox: [number, number, number, number],
-): boolean {
+function inBBox(point: LngLat, box: [number, number, number, number]): boolean {
   const [lng, lat] = point;
-  return lng >= bbox[0] && lng <= bbox[2] && lat >= bbox[1] && lat <= bbox[3];
+  return lng >= box[0] && lng <= box[2] && lat >= box[1] && lat <= box[3];
 }
 
 /**
@@ -135,14 +84,12 @@ export async function resolveLayer(
     return err({ kind: "layer-not-found", layerId: layer.id });
   }
 
-  let fc: FeatureCollection<Polygon | MultiPolygon>;
-  try {
-    fc = loadLayer(layer);
-  } catch (e) {
+  const fc = getLayerGeoJSON(layer.id);
+  if (!fc) {
     return err({
       kind: "layer-load-failed",
       layerId: layer.id,
-      message: e instanceof Error ? e.message : String(e),
+      message: "layer not bundled yet — run pnpm data:build",
     });
   }
 
@@ -153,11 +100,15 @@ export async function resolveLayer(
 
   for (const feature of fc.features) {
     if (!feature.geometry) continue;
+    const typedFeature = feature as Feature<Polygon | MultiPolygon>;
     // Bounding-box prefilter before the (more expensive) polygon test.
-    const bbox = featureBBox(feature as Feature<Polygon | MultiPolygon>);
-    if (!inBBox(point, bbox)) continue;
+    if (
+      !inBBox(point, bbox(typedFeature) as [number, number, number, number])
+    ) {
+      continue;
+    }
 
-    if (booleanPointInPolygon(pt, feature as Feature<Polygon | MultiPolygon>)) {
+    if (booleanPointInPolygon(pt, typedFeature)) {
       const raw = (feature.properties ?? {})[layer.districtProperty];
       const districtNumber =
         raw === null || raw === undefined ? null : String(raw);
@@ -183,14 +134,12 @@ export async function isInCity(
     return err({ kind: "layer-not-found", layerId: "city-limits" });
   }
 
-  let fc: FeatureCollection<Polygon | MultiPolygon>;
-  try {
-    fc = loadLayer(boundaryLayer);
-  } catch (e) {
+  const fc = getLayerGeoJSON("city-limits");
+  if (!fc) {
     return err({
       kind: "layer-load-failed",
       layerId: "city-limits",
-      message: e instanceof Error ? e.message : String(e),
+      message: "layer not bundled yet — run pnpm data:build",
     });
   }
 

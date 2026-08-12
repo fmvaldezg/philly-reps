@@ -42,15 +42,15 @@ shipping, or fall back to Census TIGER, which is public domain.
 ⚠️ Statewide file — clip to city limits (A1) before bundling.
 Verified: Yes · Features: 17 (expect 17 statewide, ~4 touching Philly) · Fields: Geometry, MSLINK, AREA, URL, LEN, GPID, C_FIRSTNAM, HOME_COUNT, PARTY, C_LASTNAME, LEG_DISTRI, Shape_Length.
 
-### A4. PA Senate districts ❓
-PASDA hosts these as a PennDOT layer, but I have not confirmed the filename. Start at the
-PASDA dataset browser and the PennDOT MapServer directory:
+### A4. PA Senate districts ✅
+Direct GeoJSON download, resolved from the PennShare Hub dataset's DCAT feed (item
+`90adf2f516544dfebbe346a11eefce97`, layer 0):
 ```
-https://data-pennshare.opendata.arcgis.com/datasets/PennShare::pennsylvania-senate-districts/about
+https://data-pennshare.opendata.arcgis.com/api/download/v1/items/90adf2f516544dfebbe346a11eefce97/geojson?layers=0
 ```
-List the layers, find the state senate one, note its layer index, then query it. Do not
-pattern-match a filename off A3's URL — verify the real one.
-Verified: Yes · Features: 50 (expect 50 statewide, ~7 in Philly) · Fields: Geometry, OBJECTID, MSLINK, LEG_DISTRICT_NO, S_LASTNAME, S_FIRSTNAME, HOME_COUNTY, PARTY.
+Dataset page: `https://data-pennshare.opendata.arcgis.com/datasets/PennShare::pennsylvania-senate-districts`
+Verified: Yes, fetched and shape-confirmed 2026-08-12 · Features: 50 (statewide) · Fields:
+Geometry, OBJECTID, MSLINK, LEG_DISTRICT_NO, S_LASTNAME, S_FIRSTNAME, HOME_COUNTY, PARTY.
 
 ### A5. PA House districts ❓
 https://www.pasda.psu.edu/json/PaHouse2024_03.geojson

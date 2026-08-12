@@ -91,72 +91,38 @@ export async function resolveAndLookup(
   };
 }
 
+const ALL_REPS: readonly Official[] = [
+  ...federalReps,
+  ...stateReps,
+  ...cityReps,
+];
+
 /**
  * Rep lookup. Reads from assets/data/ and matches officials to resolved
- * districts + statewide offices.
+ * districts + statewide/citywide offices.
  *
  * Matching logic:
  *   - District-based reps: match by layerId + districtNumber
- *   - Statewide reps (US Senators): include if inCity (Philly is in PA)
- *   - Citywide reps (Council at-large): include if inCity
+ *   - Statewide reps (US Senators) and citywide reps (Council at-large):
+ *     layerId or districtNumber is missing (null or omitted) — include
+ *     whenever the point is in Philadelphia.
  */
 async function lookupReps(
   resolved: readonly { layer: DistrictLayer; districtNumber: string | null }[],
   inCity: boolean,
 ): Promise<readonly Official[]> {
-  console.log("[lookupReps] resolved:", resolved);
-  console.log("[lookupReps] inCity:", inCity);
-  console.log("[lookupReps] federalReps:", federalReps?.length);
-  console.log("[lookupReps] stateReps:", stateReps?.length);
-  console.log("[lookupReps] cityReps:", cityReps?.length);
-
   // Build a map of resolved districts by layerId for fast lookup.
   const resolvedByLayer = new Map<string, string | null>();
   for (const { layer, districtNumber } of resolved) {
     resolvedByLayer.set(layer.id, districtNumber);
   }
-  console.log("[lookupReps] resolvedByLayer:", Object.fromEntries(resolvedByLayer));
 
   const matched: Official[] = [];
-
-  // Match federal reps.
-  for (const rep of federalReps) {
-    // Statewide offices (US Senators) — include if in Philly.
-    if (rep.office.layerId === null) {
-      if (inCity) matched.push(rep);
-      continue;
-    }
-    // District-based — match layer + district.
-    const resolvedDistrict = resolvedByLayer.get(rep.office.layerId);
-    if (
-      resolvedDistrict !== undefined &&
-      resolvedDistrict === rep.office.districtNumber
-    ) {
-      matched.push(rep);
-    }
-  }
-
-  // Match state reps.
-  for (const rep of stateReps) {
-    // Statewide offices — include if in Philly.
-    if (rep.office.layerId === null) {
-      if (inCity) matched.push(rep);
-      continue;
-    }
-    // District-based — match layer + district.
-    const resolvedDistrict = resolvedByLayer.get(rep.office.layerId);
-    if (
-      resolvedDistrict !== undefined &&
-      resolvedDistrict === rep.office.districtNumber
-    ) {
-      matched.push(rep);
-    }
-  }
-
-  // Match city reps.
-  for (const rep of cityReps) {
-    // Citywide offices (Council at-large) — include if in Philly.
-    if (rep.office.layerId === null || rep.office.districtNumber === null) {
+  for (const rep of ALL_REPS) {
+    // Statewide / citywide offices have no layer or district — include if
+    // the point is in Philadelphia. districtNumber may be omitted entirely
+    // (at-large records) rather than explicit null, so check loosely.
+    if (rep.office.layerId == null || rep.office.districtNumber == null) {
       if (inCity) matched.push(rep);
       continue;
     }

@@ -5,17 +5,22 @@
   "type": "module",
   "main": "expo-router/entry",
   "scripts": {
+    "postinstall": "node scripts/copy-maplibre-worker.mjs",
     "dev": "expo start --web",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "ESLINT_USE_FLAT_CONFIG=true eslint . && prettier --check .",
     "data:build": "tsx scripts/build-districts.ts",
+    "data:build:reps": "tsx scripts/build-reps.ts",
     "data:verify": "tsx scripts/verify-data.ts"
   },
   "dependencies": {
+    "@maplibre/maplibre-react-native": "^11.3.6",
+    "@turf/bbox": "^7.4.0",
     "@turf/boolean-point-in-polygon": "^7.1.0",
     "expo": "^57.0.12",
     "expo-router": "^57.0.12",
+    "maplibre-gl": "^6.3.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-native": "^0.86.2",

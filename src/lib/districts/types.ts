@@ -31,6 +31,12 @@ export interface DistrictLayer {
   readonly level: DistrictLevel;
   readonly kind: DistrictLayerKind;
   readonly label: string;
+  /**
+   * Short label for a results tab, used when a level has more than one
+   * district layer (e.g. "State Senate" / "State House" instead of one
+   * "State" tab that hides which chamber's boundary is on the map).
+   */
+  readonly shortLabel: string;
   /** Path to the bundled simplified GeoJSON, relative to the project root. */
   readonly geometryPath: string;
   /** GeoJSON property name carrying the district number, or null for boundaries. */
@@ -45,4 +51,19 @@ export interface ResolvedDistrict {
   readonly layerId: DistrictId;
   readonly level: DistrictLevel;
   readonly districtNumber: string | null;
+}
+
+/**
+ * A results tab. One per level normally; a level splits into one tab per
+ * layer when it has more than one district layer (SPEC.md: PA Senate and PA
+ * House are different districts and shouldn't share a "State" tab). Every
+ * tab maps to exactly one layer, so the map always has a concrete layer to
+ * draw whenever a tab is active.
+ */
+export interface TabGroup {
+  /** Unique, stable key — the level alone, or "level:layerId" when split. */
+  readonly key: string;
+  readonly level: DistrictLevel;
+  readonly layerId: DistrictId;
+  readonly label: string;
 }

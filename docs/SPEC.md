@@ -4,16 +4,16 @@ Goal: a resident types their home address and gets every elected official who re
 that address, with real contact information, on a map that shows each district boundary.
 Philadelphia first; the architecture should not make a second city impossible.
 
-## Decisions still open
+## Decisions made
 
-Flag these to the human rather than guessing:
-
-1. Scope beyond Philadelphia — city-only for v1, or PA-wide? Everything below assumes
-   city-only, with a graceful "outside Philadelphia" state.
-2. Ward/division committeepeople — include? Data exists but is poorly maintained.
-3. Judges (Common Pleas, Municipal) — elected citywide, no district. Include as a
-   citywide section or omit for v1?
-4. Whether the map is the primary screen or a secondary tab after the results list.
+1. Scope beyond Philadelphia — city-only for v1. Everything below assumes city-only,
+   with a graceful "outside Philadelphia" state.
+2. Ward/division committeepeople — excluded from v1. Not government offices, and the
+   source data is poorly maintained; revisit only if a user asks for it.
+3. Judges (Common Pleas, Municipal) — omitted for v1.
+4. The map is secondary to the results list, not a separate tab. Results render first
+   and work with no map at all; the map (SPEC step 5) appears alongside them on the
+   same screen and highlights whichever card is focused.
 
 ## User flow
 

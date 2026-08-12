@@ -7,16 +7,23 @@
  * The left border uses the level color (federal/state/city) so the tier is
  * visible at a glance. Color is never the only signal — every card also
  * shows the level label.
+ *
+ * Cards for a district-based office (office.layerId is set) are tappable —
+ * tapping highlights that district's boundary on the map (SPEC.md user
+ * flow #6). Statewide/citywide cards have no single polygon to highlight,
+ * so they render without the press affordance.
  */
 
-import { StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import { colors, geometry, levelColor } from "../styles/tokens";
-import type { Official } from "../lib/reps/types";
+import type { Office, Official } from "../lib/reps/types";
 import type { DistrictLevel } from "../lib/districts/types";
 
 interface OfficialCardProps {
   official: Official;
+  focused?: boolean | undefined;
+  onFocus?: ((office: Office) => void) | undefined;
 }
 
 const LEVEL_LABELS: Record<DistrictLevel, string> = {
@@ -36,12 +43,17 @@ function formatVerifiedOn(iso: string): string {
   return `Verified on ${d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}`;
 }
 
-export function OfficialCard({ official }: OfficialCardProps) {
+export function OfficialCard({
+  official,
+  focused,
+  onFocus,
+}: OfficialCardProps) {
   const { office, name, party } = official;
   const stripeColor = levelColor(office.level);
+  const layerId = office.layerId;
 
-  return (
-    <View style={[styles.card, { borderLeftColor: stripeColor }]}>
+  const content = (
+    <>
       <View style={styles.header}>
         <Text style={styles.levelLabel}>{LEVEL_LABELS[office.level]}</Text>
         <Text style={styles.officeTitle}>{office.title}</Text>
@@ -75,8 +87,29 @@ export function OfficialCard({ official }: OfficialCardProps) {
       <Text style={styles.verified}>
         {formatVerifiedOn(official.verifiedOn)}
       </Text>
-    </View>
+    </>
   );
+
+  const cardStyle = [
+    styles.card,
+    { borderLeftColor: stripeColor },
+    focused ? styles.cardFocused : null,
+  ];
+
+  if (layerId && onFocus) {
+    return (
+      <Pressable
+        style={cardStyle}
+        onPress={() => onFocus(office)}
+        accessibilityRole="button"
+        accessibilityLabel={`Highlight ${office.title} on the map`}
+      >
+        {content}
+      </Pressable>
+    );
+  }
+
+  return <View style={cardStyle}>{content}</View>;
 }
 
 interface ContactRowProps {
@@ -120,6 +153,9 @@ const styles = StyleSheet.create({
     shadowColor: colors.shadow,
     boxShadow: `0px 1px 2px ${colors.shadow}`,
     elevation: 1,
+  },
+  cardFocused: {
+    borderColor: colors.accent,
   },
   header: {
     gap: 2,

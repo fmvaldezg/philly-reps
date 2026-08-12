@@ -8,12 +8,17 @@
  *   - pa-senate:   A4 — `LEG_DISTRICT_NO`
  *   - pa-house:    A5 — `LEG_DISTRI`
  *
- * Geometry paths point at where the bundled simplified GeoJSON WILL live
- * after step 2's data build. The files don't exist yet — that's expected at
- * step 1; the resolver (step 2) is what loads them.
+ * Geometry paths point at the bundled simplified GeoJSON (stored as .json —
+ * every bundler already treats that extension as a source module, so the
+ * resolver can `import` it directly instead of touching the filesystem).
  */
 
-import type { DistrictId, DistrictLayer } from "./types";
+import type {
+  DistrictId,
+  DistrictLayer,
+  DistrictLevel,
+  TabGroup,
+} from "./types";
 
 export const districtRegistry: readonly DistrictLayer[] = [
   {
@@ -21,7 +26,8 @@ export const districtRegistry: readonly DistrictLayer[] = [
     level: "city",
     kind: "boundary",
     label: "Philadelphia city limits",
-    geometryPath: "assets/districts/city-limits.geojson",
+    shortLabel: "City limits",
+    geometryPath: "assets/districts/city-limits.json",
     districtProperty: null,
   },
   {
@@ -29,7 +35,8 @@ export const districtRegistry: readonly DistrictLayer[] = [
     level: "city",
     kind: "district",
     label: "Philadelphia City Council",
-    geometryPath: "assets/districts/council.geojson",
+    shortLabel: "City",
+    geometryPath: "assets/districts/council.json",
     districtProperty: "district",
   },
   {
@@ -37,7 +44,8 @@ export const districtRegistry: readonly DistrictLayer[] = [
     level: "federal",
     kind: "district",
     label: "U.S. House of Representatives",
-    geometryPath: "assets/districts/congress.geojson",
+    shortLabel: "Federal",
+    geometryPath: "assets/districts/congress.json",
     districtProperty: "LEG_DISTRI",
   },
   {
@@ -45,7 +53,8 @@ export const districtRegistry: readonly DistrictLayer[] = [
     level: "state",
     kind: "district",
     label: "Pennsylvania State Senate",
-    geometryPath: "assets/districts/pa-senate.geojson",
+    shortLabel: "State Senate",
+    geometryPath: "assets/districts/pa-senate.json",
     districtProperty: "LEG_DISTRICT_NO",
   },
   {
@@ -53,7 +62,8 @@ export const districtRegistry: readonly DistrictLayer[] = [
     level: "state",
     kind: "district",
     label: "Pennsylvania House of Representatives",
-    geometryPath: "assets/districts/pa-house.geojson",
+    shortLabel: "State House",
+    geometryPath: "assets/districts/pa-house.json",
     districtProperty: "LEG_DISTRI",
   },
 ] as const;
@@ -64,4 +74,54 @@ export function getDistrictLayer(id: DistrictId): DistrictLayer | undefined {
 
 export function districtLayers(): readonly DistrictLayer[] {
   return districtRegistry;
+}
+
+const DISTRICT_IDS = new Set<string>(districtRegistry.map((l) => l.id));
+
+/** Narrows a generic string (e.g. an Office's layerId) to a known DistrictId. */
+export function isDistrictId(id: string): id is DistrictId {
+  return DISTRICT_IDS.has(id);
+}
+
+const LEVEL_ORDER: readonly DistrictLevel[] = ["federal", "state", "city"];
+const LEVEL_LABELS: Record<DistrictLevel, string> = {
+  federal: "Federal",
+  state: "State",
+  city: "City",
+};
+
+/**
+ * The results tabs, derived from the registry — never hardcoded layer
+ * names. A level with a single district layer gets one tab labeled by the
+ * level ("Federal", "City"); a level with more than one (currently just
+ * "state": PA Senate + PA House) gets one tab per layer, labeled by that
+ * layer's `shortLabel`, so each tab maps to exactly one map layer.
+ */
+export function tabGroups(): readonly TabGroup[] {
+  const groups: TabGroup[] = [];
+  for (const level of LEVEL_ORDER) {
+    const layers = districtRegistry.filter(
+      (l) => l.level === level && l.kind === "district",
+    );
+    if (layers.length <= 1) {
+      const layer = layers[0];
+      if (!layer) continue;
+      groups.push({
+        key: level,
+        level,
+        layerId: layer.id,
+        label: LEVEL_LABELS[level],
+      });
+      continue;
+    }
+    for (const layer of layers) {
+      groups.push({
+        key: `${level}:${layer.id}`,
+        level,
+        layerId: layer.id,
+        label: layer.shortLabel,
+      });
+    }
+  }
+  return groups;
 }
