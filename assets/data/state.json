@@ -1,0 +1,4776 @@
+[
+  {
+    "office": {
+      "id": "pa-house-8",
+      "title": "PA State Representative, District 8",
+      "level": "state",
+      "districtNumber": "8",
+      "layerId": "pa-house"
+    },
+    "name": "Aaron Bernstine",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "790 Pittsburgh Road Suite 3, Butler, PA 16002",
+      "phone": "724-847-5291"
+    },
+    "email": "abernstine@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1742.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-60",
+      "title": "PA State Representative, District 60",
+      "level": "state",
+      "districtNumber": "60",
+      "layerId": "pa-house"
+    },
+    "name": "Abby Major",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "312 Ford St., Ford City, PA 16226",
+      "phone": "724-763-3222"
+    },
+    "email": "amajor@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1926.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-34",
+      "title": "PA State Representative, District 34",
+      "level": "state",
+      "districtNumber": "34",
+      "layerId": "pa-house"
+    },
+    "name": "Abigail Salisbury",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "501 Braddock Ave., Braddock, PA 15104",
+      "phone": "412-273-3400"
+    },
+    "email": "repsalisbury@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2012.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-19",
+      "title": "PA State Representative, District 19",
+      "level": "state",
+      "districtNumber": "19",
+      "layerId": "pa-house"
+    },
+    "name": "Aerion Abney",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "730 James St., Pittsburgh, PA 15212",
+      "phone": "412-471-7760"
+    },
+    "email": "aabney@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1933.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-119",
+      "title": "PA State Representative, District 119",
+      "level": "state",
+      "districtNumber": "119",
+      "layerId": "pa-house"
+    },
+    "name": "Alec Ryncavage",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Fairview Township 65 Shady Tree Drive, Mountain Top, PA 18707",
+      "phone": "570-403-2371"
+    },
+    "email": "aryncavage@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1967.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-17",
+      "title": "PA State Senator, District 17",
+      "level": "state",
+      "districtNumber": "17",
+      "layerId": "pa-senate"
+    },
+    "name": "Amanda Cappelletti",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "50 E. Wynnewood Road Suite 210, Wynnewood, PA 19096",
+      "phone": "610-896-2832"
+    },
+    "email": "cappelletti@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1923.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-10",
+      "title": "PA State Representative, District 10",
+      "level": "state",
+      "districtNumber": "10",
+      "layerId": "pa-house"
+    },
+    "name": "Amen Brown",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4027 Market St., Philadelphia, PA 19104",
+      "phone": "215-879-6615"
+    },
+    "email": "repbrown@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1919.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-22",
+      "title": "PA State Representative, District 22",
+      "level": "state",
+      "districtNumber": "22",
+      "layerId": "pa-house"
+    },
+    "name": "Ana Tiburcio",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1801 Union Blvd. Suite H, 2nd Floor, Allentown, PA 18109",
+      "phone": "484-656-7744"
+    },
+    "email": "reptiburcio@pahouse.net",
+    "photoUrl": "",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-201",
+      "title": "PA State Representative, District 201",
+      "level": "state",
+      "districtNumber": "201",
+      "layerId": "pa-house"
+    },
+    "name": "Andre Carroll",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "5845 Germantown Ave., Philadelphia, PA 19144",
+      "phone": "215-849-6592"
+    },
+    "email": "repcarroll@pahouse.net",
+    "photoUrl": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/150754.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-79",
+      "title": "PA State Representative, District 79",
+      "level": "state",
+      "districtNumber": "79",
+      "layerId": "pa-house"
+    },
+    "name": "Andrea Verobish",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2301 Beale Ave. Suite A, Altoona, PA 16601",
+      "phone": "814-946-7218"
+    },
+    "email": "",
+    "photoUrl": "",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-39",
+      "title": "PA State Representative, District 39",
+      "level": "state",
+      "districtNumber": "39",
+      "layerId": "pa-house"
+    },
+    "name": "Andrew Kuzma",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "491 E. Bruceton Road Suite 102, Pleasant Hills, PA 15236",
+      "phone": "412-382-2009"
+    },
+    "email": "akuzma@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1946.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-45",
+      "title": "PA State Representative, District 45",
+      "level": "state",
+      "districtNumber": "45",
+      "layerId": "pa-house"
+    },
+    "name": "Anita Kulik",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1350 5th Ave., Coraopolis, PA 15108",
+      "phone": "412-264-4260"
+    },
+    "email": "akulik@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1744.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-138",
+      "title": "PA State Representative, District 138",
+      "level": "state",
+      "districtNumber": "138",
+      "layerId": "pa-house"
+    },
+    "name": "Ann Flood",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "962 Pennsylvania Ave., Pen Argyl, PA 18072",
+      "phone": "610-746-2100"
+    },
+    "email": "aflood@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1910.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-203",
+      "title": "PA State Representative, District 203",
+      "level": "state",
+      "districtNumber": "203",
+      "layerId": "pa-house"
+    },
+    "name": "Anthony Bellmon",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7215-B Rising Sun Ave., Philadelphia, PA 19111",
+      "phone": "215-560-1315"
+    },
+    "email": "repbellmon@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1984.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-8",
+      "title": "PA State Senator, District 8",
+      "level": "state",
+      "districtNumber": "8",
+      "layerId": "pa-senate"
+    },
+    "name": "Tony Williams",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2901 Island Ave., Suite 100, Philadelphia, PA 19153",
+      "phone": "215-492-2980"
+    },
+    "email": "williams@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/153.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-4",
+      "title": "PA State Senator, District 4",
+      "level": "state",
+      "districtNumber": "4",
+      "layerId": "pa-senate"
+    },
+    "name": "Art Haywood",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7106 Germantown Ave., Philadelphia, PA 19119",
+      "phone": "215-242-8171"
+    },
+    "email": "senatorhaywood@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1689.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-30",
+      "title": "PA State Representative, District 30",
+      "level": "state",
+      "districtNumber": "30",
+      "layerId": "pa-house"
+    },
+    "name": "Arvind Venkat",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "9800B McKnight Road Suite 130, Pittsburgh, PA 15237",
+      "phone": "412-348-8028"
+    },
+    "email": "repvenkat@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1944.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-199",
+      "title": "PA State Representative, District 199",
+      "level": "state",
+      "districtNumber": "199",
+      "layerId": "pa-house"
+    },
+    "name": "Barb Gleim",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "437 E. North St., Carlisle, PA 17013",
+      "phone": "717-249-1990"
+    },
+    "email": "bgleim@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1864.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-182",
+      "title": "PA State Representative, District 182",
+      "level": "state",
+      "districtNumber": "182",
+      "layerId": "pa-house"
+    },
+    "name": "Ben Waxman",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1500 Walnut St. 10th Floor, Philadelphia, PA 19102",
+      "phone": "215-246-1501"
+    },
+    "email": "repwaxman@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1981.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-153",
+      "title": "PA State Representative, District 153",
+      "level": "state",
+      "districtNumber": "153",
+      "layerId": "pa-house"
+    },
+    "name": "Ben Sanchez",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1175 Old York Road, Abington, PA 19001",
+      "phone": "215-517-6800"
+    },
+    "email": "repsanchez@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1849.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-6",
+      "title": "PA State Representative, District 6",
+      "level": "state",
+      "districtNumber": "6",
+      "layerId": "pa-house"
+    },
+    "name": "Brad Roae",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "18937 Park Avenue Plaza, Meadville, PA 16335",
+      "phone": "814-336-1136"
+    },
+    "email": "broae@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1083.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-25",
+      "title": "PA State Representative, District 25",
+      "level": "state",
+      "districtNumber": "25",
+      "layerId": "pa-house"
+    },
+    "name": "Brandon Markosek",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Commerce Building 4232 Northern Pike, Monroeville, PA 15146",
+      "phone": "412-856-8284"
+    },
+    "email": "repmarkosek@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1825.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-120",
+      "title": "PA State Representative, District 120",
+      "level": "state",
+      "districtNumber": "120",
+      "layerId": "pa-house"
+    },
+    "name": "Brenda Pugh",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "161 Main St. Suite 201, Luzerne, PA 18709",
+      "phone": "570-283-1001"
+    },
+    "email": "bpugh@pahousegop.com",
+    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqVdrj2w84kNrKi7RN0poR6kywKVZcSV7m-g&s",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-41",
+      "title": "PA State Representative, District 41",
+      "level": "state",
+      "districtNumber": "41",
+      "layerId": "pa-house"
+    },
+    "name": "Brett Miller",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "132 Locust St. Suite 102, Columbia, PA 17512",
+      "phone": "717-295-5050"
+    },
+    "email": "bmiller@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1699.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-144",
+      "title": "PA State Representative, District 144",
+      "level": "state",
+      "districtNumber": "144",
+      "layerId": "pa-house"
+    },
+    "name": "Brian Munroe",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1410 W. Street Road Suite A, Warminster, PA 18974",
+      "phone": "215-323-6997"
+    },
+    "email": "repmunroe@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1972.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-56",
+      "title": "PA State Representative, District 56",
+      "level": "state",
+      "districtNumber": "56",
+      "layerId": "pa-house"
+    },
+    "name": "Brian Rasel",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2090 Harrison Ave. Suite 4, Jeannette, PA 15644",
+      "phone": "724-744-0305"
+    },
+    "email": "brasel@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/200/2025.jpg?20241220",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-66",
+      "title": "PA State Representative, District 66",
+      "level": "state",
+      "districtNumber": "66",
+      "layerId": "pa-house"
+    },
+    "name": "Brian Smith",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "82 Barnett St., Brookville, PA 15825",
+      "phone": "814-849-8008"
+    },
+    "email": "bsmith@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1902.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-114",
+      "title": "PA State Representative, District 114",
+      "level": "state",
+      "districtNumber": "114",
+      "layerId": "pa-house"
+    },
+    "name": "Bridget Malloy Kosierowski",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "277 Scranton Carbondale Highway Unit 19, Scranton, PA 18508",
+      "phone": "570-562-2350"
+    },
+    "email": "repkosierowski@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1866.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-100",
+      "title": "PA State Representative, District 100",
+      "level": "state",
+      "districtNumber": "100",
+      "layerId": "pa-house"
+    },
+    "name": "Bryan Cutler",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "33E Friendly Drive, Quarryville, PA 17566",
+      "phone": "717-284-1965"
+    },
+    "email": "bcutler@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1105.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-50",
+      "title": "PA State Representative, District 50",
+      "level": "state",
+      "districtNumber": "50",
+      "layerId": "pa-house"
+    },
+    "name": "Bud Cook",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Center in the Woods 130 Woodland Court, Brownsville, PA 15417",
+      "phone": "724-929-2660"
+    },
+    "email": "bcook@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1745.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-46",
+      "title": "PA State Senator, District 46",
+      "level": "state",
+      "districtNumber": "46",
+      "layerId": "pa-senate"
+    },
+    "name": "Camera Bartolotta",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "95 W. Beau St. Suite 107, Washington, PA 15301",
+      "phone": "724-225-4380"
+    },
+    "email": "cbartolotta@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1698.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-69",
+      "title": "PA State Representative, District 69",
+      "level": "state",
+      "districtNumber": "69",
+      "layerId": "pa-house"
+    },
+    "name": "Carl Metzgar",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1808 N. Center Ave. Suite 200, Somerset, PA 15501",
+      "phone": "814-443-4230"
+    },
+    "email": "cmetzgar@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1174.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-95",
+      "title": "PA State Representative, District 95",
+      "level": "state",
+      "districtNumber": "95",
+      "layerId": "pa-house"
+    },
+    "name": "Carol Hill-Evans",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "53 E. North St. Suite 3, York, PA 17401",
+      "phone": "717-848-9595"
+    },
+    "email": "rephill-evans@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1749.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-159",
+      "title": "PA State Representative, District 159",
+      "level": "state",
+      "districtNumber": "159",
+      "layerId": "pa-house"
+    },
+    "name": "Carol Kazeem",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "624 Avenue of the States, Chester, PA 19013",
+      "phone": "610-876-6420"
+    },
+    "email": "repkazeem@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1976.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-19",
+      "title": "PA State Senator, District 19",
+      "level": "state",
+      "districtNumber": "19",
+      "layerId": "pa-senate"
+    },
+    "name": "Carolyn Comitta",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "17 E. Gay St. Suite 301, West Chester, PA 19380",
+      "phone": "610-692-2112"
+    },
+    "email": "senatorcomitta@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1790.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-193",
+      "title": "PA State Representative, District 193",
+      "level": "state",
+      "districtNumber": "193",
+      "layerId": "pa-house"
+    },
+    "name": "Catherine Wallen",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "68 W. King St., Shippensburg, PA 17257",
+      "phone": "717-477-0905"
+    },
+    "email": "",
+    "photoUrl": "",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-90",
+      "title": "PA State Representative, District 90",
+      "level": "state",
+      "districtNumber": "90",
+      "layerId": "pa-house"
+    },
+    "name": "Chad Reichard",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "MMP&W Volunteer Fire Co. Activity Center 20 Veterans Way, Mercersburg, PA 17236"
+    },
+    "email": "creichard@pahousegop.com",
+    "photoUrl": "https://seventy.org/uploads/attachments/cly5z27ztjodi7xnpsnqhzmfb-screenshot-2024-07-03-at-11-07-37-am.0.29.1038.1099.max.png",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-51",
+      "title": "PA State Representative, District 51",
+      "level": "state",
+      "districtNumber": "51",
+      "layerId": "pa-house"
+    },
+    "name": "Charity Krupa",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "3089 Morgantown Road, Smithfield, PA 15458",
+      "phone": "724-438-6100"
+    },
+    "email": "ckrupa@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1949.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-156",
+      "title": "PA State Representative, District 156",
+      "level": "state",
+      "districtNumber": "156",
+      "layerId": "pa-house"
+    },
+    "name": "Chris Pielli",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "121 W. Miner St. Suite 1E, West Chester, PA 19382",
+      "phone": "610-696-4990"
+    },
+    "email": "reppielli@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1975.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-158",
+      "title": "PA State Representative, District 158",
+      "level": "state",
+      "districtNumber": "158",
+      "layerId": "pa-house"
+    },
+    "name": "Christina Sappey",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Willowdale Town Center 698 Unionville Road, Kennett Square, PA 19348",
+      "phone": "484-200-8264"
+    },
+    "email": "repsappey@pahouse.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1852.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-2",
+      "title": "PA State Senator, District 2",
+      "level": "state",
+      "districtNumber": "2",
+      "layerId": "pa-senate"
+    },
+    "name": "Tina Tartaglione",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "5321 Oxford Ave., Philadelphia, PA 19124",
+      "phone": "215-533-0440"
+    },
+    "email": "tartaglione@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/277.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-48",
+      "title": "PA State Senator, District 48",
+      "level": "state",
+      "districtNumber": "48",
+      "layerId": "pa-senate"
+    },
+    "name": "Chris Gebhard",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "61 N. 3rd St., Hamburg, PA 19526",
+      "phone": "717-274-6735"
+    },
+    "email": "cgebhard@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1928.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-200",
+      "title": "PA State Representative, District 200",
+      "level": "state",
+      "districtNumber": "200",
+      "layerId": "pa-house"
+    },
+    "name": "Chris Rabb",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7216 Germantown Ave., Philadelphia, PA 19119",
+      "phone": "215-242-7300"
+    },
+    "email": "reprabb@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1760.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-68",
+      "title": "PA State Representative, District 68",
+      "level": "state",
+      "districtNumber": "68",
+      "layerId": "pa-house"
+    },
+    "name": "Clint Owlett",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "74 Main St., Wellsboro, PA 16901",
+      "phone": "570-724-1390"
+    },
+    "email": "cowlett@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1796.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-145",
+      "title": "PA State Representative, District 145",
+      "level": "state",
+      "districtNumber": "145",
+      "layerId": "pa-house"
+    },
+    "name": "Craig Staats",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "10 S. 3rd St., Quakertown, PA 18951",
+      "phone": "215-536-1434"
+    },
+    "email": "cstaats@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1707.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-160",
+      "title": "PA State Representative, District 160",
+      "level": "state",
+      "districtNumber": "160",
+      "layerId": "pa-house"
+    },
+    "name": "Craig Williams",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1 Beaver Valley Road Suite 100, Chadds Ford, PA 19317",
+      "phone": "610-358-5925"
+    },
+    "email": "craig.williams@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1916.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-25",
+      "title": "PA State Senator, District 25",
+      "level": "state",
+      "districtNumber": "25",
+      "layerId": "pa-senate"
+    },
+    "name": "Cris Dush",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "73 S. White St. Suite 5, Brookville, PA 15825",
+      "phone": "814-646-7272"
+    },
+    "email": "cdush@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1687.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-73",
+      "title": "PA State Representative, District 73",
+      "level": "state",
+      "districtNumber": "73",
+      "layerId": "pa-house"
+    },
+    "name": "Dallas Kephart",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "600 Lingle St., Osceola Mills, PA 16666",
+      "phone": "814-339-6544"
+    },
+    "email": "dkephart@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1952.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-23",
+      "title": "PA State Representative, District 23",
+      "level": "state",
+      "districtNumber": "23",
+      "layerId": "pa-house"
+    },
+    "name": "Dan Frankel",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2345 Murray Ave. Suite 205, Pittsburgh, PA 15217",
+      "phone": "412-422-1774"
+    },
+    "email": "repfrankel@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/84.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-35",
+      "title": "PA State Representative, District 35",
+      "level": "state",
+      "districtNumber": "35",
+      "layerId": "pa-house"
+    },
+    "name": "Dan Goughnour",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "409 Walnut St. First Floor, McKeesport, PA 15132",
+      "phone": "412-664-0035"
+    },
+    "email": "repgergely@pahouse.net",
+    "photoUrl": "",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-74",
+      "title": "PA State Representative, District 74",
+      "level": "state",
+      "districtNumber": "74",
+      "layerId": "pa-house"
+    },
+    "name": "Dan Williams",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "3496 E. Lincoln Highway, Thorndale, PA 19372",
+      "phone": "484-200-8256"
+    },
+    "email": "dwilliams@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1837.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-91",
+      "title": "PA State Representative, District 91",
+      "level": "state",
+      "districtNumber": "91",
+      "layerId": "pa-house"
+    },
+    "name": "Dan Moul",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "30 W. Middle St., Gettysburg, PA 17325",
+      "phone": "717-334-3010"
+    },
+    "email": "dmoul@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1101.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-116",
+      "title": "PA State Representative, District 116",
+      "level": "state",
+      "districtNumber": "116",
+      "layerId": "pa-house"
+    },
+    "name": "Dane Watro",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "145 E. Broad St. Suite 1, Hazleton, PA 18201",
+      "phone": "570-453-1344"
+    },
+    "email": "dwatro@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1964.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-27",
+      "title": "PA State Representative, District 27",
+      "level": "state",
+      "districtNumber": "27",
+      "layerId": "pa-house"
+    },
+    "name": "Dan Deasy",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1074 Greentree Road, Pittsburgh, PA 15220",
+      "phone": "412-928-9514"
+    },
+    "email": "ddeasy@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1166.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-49",
+      "title": "PA State Senator, District 49",
+      "level": "state",
+      "districtNumber": "49",
+      "layerId": "pa-senate"
+    },
+    "name": "Dan Laughlin",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1314 Griswold Plaza Suite 101, Erie, PA 16501",
+      "phone": "814-453-2515"
+    },
+    "email": "dlaughlin@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1766.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-155",
+      "title": "PA State Representative, District 155",
+      "level": "state",
+      "districtNumber": "155",
+      "layerId": "pa-house"
+    },
+    "name": "Danielle Otten",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "631 Pottstown Pike, Exton, PA 19341",
+      "phone": "484-200-8259"
+    },
+    "email": "repotten@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1850.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-197",
+      "title": "PA State Representative, District 197",
+      "level": "state",
+      "districtNumber": "197",
+      "layerId": "pa-house"
+    },
+    "name": "Danilo Burgos",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "635 W. Erie Ave., Philadelphia, PA 19140",
+      "phone": "215-223-1890"
+    },
+    "email": "dburgos@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1863.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-198",
+      "title": "PA State Representative, District 198",
+      "level": "state",
+      "districtNumber": "198",
+      "layerId": "pa-house"
+    },
+    "name": "Darisha Parker",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1335 W. Tabor Road Suite 109, Philadelphia, PA 19141",
+      "phone": "215-849-6426"
+    },
+    "email": "repparker@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1920.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-162",
+      "title": "PA State Representative, District 162",
+      "level": "state",
+      "districtNumber": "162",
+      "layerId": "pa-house"
+    },
+    "name": "Dave Delloso",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "605 E. Chester Pike, Ridley Park, PA 19078",
+      "phone": "610-534-1002"
+    },
+    "email": "repdelloso@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1853.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-104",
+      "title": "PA State Representative, District 104",
+      "level": "state",
+      "districtNumber": "104",
+      "layerId": "pa-house"
+    },
+    "name": "Dave Madsen",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "383 S. Front St., Steelton, PA 17113",
+      "phone": "717-986-1673"
+    },
+    "email": "repmadsen@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1959.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-29",
+      "title": "PA State Senator, District 29",
+      "level": "state",
+      "districtNumber": "29",
+      "layerId": "pa-senate"
+    },
+    "name": "Dave Argall",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "204B Bridge St., Weissport, PA 18235",
+      "phone": "877-327-4255"
+    },
+    "email": "dargall@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/69.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-99",
+      "title": "PA State Representative, District 99",
+      "level": "state",
+      "districtNumber": "99",
+      "layerId": "pa-house"
+    },
+    "name": "Dave Zimmerman",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2800 N. Reading Road Suite 245, Reinholds, PA 17569",
+      "phone": "717-556-0031"
+    },
+    "email": "dzimmerman@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1711.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-130",
+      "title": "PA State Representative, District 130",
+      "level": "state",
+      "districtNumber": "130",
+      "layerId": "pa-house"
+    },
+    "name": "David Maloney",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "46 E. Philadelphia Ave., Boyertown, PA 19512",
+      "phone": "610-369-3010"
+    },
+    "email": "dmaloney@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1226.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-85",
+      "title": "PA State Representative, District 85",
+      "level": "state",
+      "districtNumber": "85",
+      "layerId": "pa-house"
+    },
+    "name": "David Rowe",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "74 Paxtonville Road, Middleburg, PA 17842",
+      "phone": "570-966-0052"
+    },
+    "email": "drowe@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1871.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-31",
+      "title": "PA State Senator, District 31",
+      "level": "state",
+      "districtNumber": "31",
+      "layerId": "pa-senate"
+    },
+    "name": "Dawn Keefer",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "12 N. Baltimore St., Dillsburg, PA 17019",
+      "phone": "717-432-1730"
+    },
+    "email": "dkeefer@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1748.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-37",
+      "title": "PA State Senator, District 37",
+      "level": "state",
+      "districtNumber": "37",
+      "layerId": "pa-senate"
+    },
+    "name": "Devlin Robinson",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Heritage Center 2559 Brandt School Road, Suite 101, Wexford, PA 15090",
+      "phone": "412-643-3020"
+    },
+    "email": "drobinson@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1924.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-147",
+      "title": "PA State Representative, District 147",
+      "level": "state",
+      "districtNumber": "147",
+      "layerId": "pa-house"
+    },
+    "name": "Donna Scheuren",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "418 Main St. Suite 101, Harleysville, PA 19438",
+      "phone": "215-256-6030"
+    },
+    "email": "dscheuren@pahousegop.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1973.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-33",
+      "title": "PA State Senator, District 33",
+      "level": "state",
+      "districtNumber": "33",
+      "layerId": "pa-senate"
+    },
+    "name": "Doug Mastriano",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "37 S. Main St. Suite 200, Chambersburg, PA 17201",
+      "phone": "717-264-6100"
+    },
+    "email": "dmastriano@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1869.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-122",
+      "title": "PA State Representative, District 122",
+      "level": "state",
+      "districtNumber": "122",
+      "layerId": "pa-house"
+    },
+    "name": "Doyle Heffley",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "American Legion Building 3 W. Ridge St., Lansford, PA 18232"
+    },
+    "email": "dheffley@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1211.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-174",
+      "title": "PA State Representative, District 174",
+      "level": "state",
+      "districtNumber": "174",
+      "layerId": "pa-house"
+    },
+    "name": "Ed Neilson",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "16 Old Ashton Road, Philadelphia, PA 19152",
+      "phone": "215-330-3714"
+    },
+    "email": "repneilson@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1615.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-121",
+      "title": "PA State Representative, District 121",
+      "level": "state",
+      "districtNumber": "121",
+      "layerId": "pa-house"
+    },
+    "name": "Eddie Pashinski",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "152 S. Pennsylvania Ave., Wilkes Barre, PA 18701",
+      "phone": "570-825-5934"
+    },
+    "email": "reppashinski@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1112.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-47",
+      "title": "PA State Senator, District 47",
+      "level": "state",
+      "districtNumber": "47",
+      "layerId": "pa-senate"
+    },
+    "name": "Elder Vogel",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "8001 Rowan Road Suite 205, Cranberry Township, PA 16066",
+      "phone": "878-978-2575"
+    },
+    "email": "evogel@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1189.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-184",
+      "title": "PA State Representative, District 184",
+      "level": "state",
+      "districtNumber": "184",
+      "layerId": "pa-house"
+    },
+    "name": "Elizabeth Fiedler",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2400 S. 9th St., Philadelphia, PA 19148",
+      "phone": "215-271-9190"
+    },
+    "email": "repfiedler@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1861.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-20",
+      "title": "PA State Representative, District 20",
+      "level": "state",
+      "districtNumber": "20",
+      "layerId": "pa-house"
+    },
+    "name": "Emily Kinkead",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "658 Lincoln Ave., Bellevue, PA 15202",
+      "phone": "412-321-5523"
+    },
+    "email": "repkinkead@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1896.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-58",
+      "title": "PA State Representative, District 58",
+      "level": "state",
+      "districtNumber": "58",
+      "layerId": "pa-house"
+    },
+    "name": "Eric Davanzo",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Scottdale Borough Building 10 Mount Pleasant Road, Suite 1, Scottdale, PA 15683",
+      "phone": "724-542-0349"
+    },
+    "email": "edavanzo@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1875.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-57",
+      "title": "PA State Representative, District 57",
+      "level": "state",
+      "districtNumber": "57",
+      "layerId": "pa-house"
+    },
+    "name": "Eric Nelson",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "17 S. 6th St., Youngwood, PA 15697",
+      "phone": "724-925-5490"
+    },
+    "email": "enelson@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1738.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-5",
+      "title": "PA State Representative, District 5",
+      "level": "state",
+      "districtNumber": "5",
+      "layerId": "pa-house"
+    },
+    "name": "Eric Weaknecht",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Reading Regional Airport - Main Terminal 24 Liberator Way, Suite F, Reading, PA 19605",
+      "phone": "610-378-4407"
+    },
+    "email": "eweaknecht@pahousegop.com",
+    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNTmXpiok-J6R_vUlOit1nC52uvUkP1E-Wag&s",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-6",
+      "title": "PA State Senator, District 6",
+      "level": "state",
+      "districtNumber": "6",
+      "layerId": "pa-senate"
+    },
+    "name": "Frank Farry",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "370 E. Maple Ave. Suite 203, Langhorne, PA 19047",
+      "phone": "215-638-1784"
+    },
+    "email": "ffarry@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1169.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-72",
+      "title": "PA State Representative, District 72",
+      "level": "state",
+      "districtNumber": "72",
+      "layerId": "pa-house"
+    },
+    "name": "Frank Burns",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "535 Fairfield Ave., Johnstown, PA 15906",
+      "phone": "814-536-8400"
+    },
+    "email": "repburns@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1163.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-190",
+      "title": "PA State Representative, District 190",
+      "level": "state",
+      "districtNumber": "190",
+      "layerId": "pa-house"
+    },
+    "name": "Roni Green",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "3333 W. Hunting Park Ave., Philadelphia, PA 19132"
+    },
+    "email": "repgreen@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1874.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-187",
+      "title": "PA State Representative, District 187",
+      "level": "state",
+      "districtNumber": "187",
+      "layerId": "pa-house"
+    },
+    "name": "Gary Day",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "3402 Brookside Road, Macungie, PA 18062",
+      "phone": "610-965-9933"
+    },
+    "email": "gday@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1190.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-23",
+      "title": "PA State Senator, District 23",
+      "level": "state",
+      "districtNumber": "23",
+      "layerId": "pa-senate"
+    },
+    "name": "Gene Yaw",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "5 Main St., Wellsboro, PA 16901",
+      "phone": "570-724-5231"
+    },
+    "email": "gyaw@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1186.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-196",
+      "title": "PA State Representative, District 196",
+      "level": "state",
+      "districtNumber": "196",
+      "layerId": "pa-house"
+    },
+    "name": "George Margetas",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2501 Catherine St. Suite 10, York, PA 17408",
+      "phone": "717-767-3947"
+    },
+    "email": "",
+    "photoUrl": "https://votemargetas.com/wp-content/uploads/2025/09/George-Margetas-Portrait-Bio-5.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-164",
+      "title": "PA State Representative, District 164",
+      "level": "state",
+      "districtNumber": "164",
+      "layerId": "pa-house"
+    },
+    "name": "Gina Curry",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Barclay Square Shopping Center 1500 Garrett Road, Upper Darby, PA 19082",
+      "phone": "610-259-7016"
+    },
+    "email": "repcurry@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1932.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-34",
+      "title": "PA State Senator, District 34",
+      "level": "state",
+      "districtNumber": "34",
+      "layerId": "pa-senate"
+    },
+    "name": "Greg Rothman",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "4 Flowers Drive Suite 3, Mechanicsburg, PA 17050",
+      "phone": "717-283-4200"
+    },
+    "email": "grothman@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1733.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-54",
+      "title": "PA State Representative, District 54",
+      "level": "state",
+      "districtNumber": "54",
+      "layerId": "pa-house"
+    },
+    "name": "Greg Scott",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1019 W. Main St., Norristown, PA 19401",
+      "phone": "484-685-3494"
+    },
+    "email": "repscott@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1950.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-166",
+      "title": "PA State Representative, District 166",
+      "level": "state",
+      "districtNumber": "166",
+      "layerId": "pa-house"
+    },
+    "name": "Greg Vitali",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1001 E. Darby Road, Havertown, PA 19083",
+      "phone": "610-789-3900"
+    },
+    "email": "repvitali@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/210.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-163",
+      "title": "PA State Representative, District 163",
+      "level": "state",
+      "districtNumber": "163",
+      "layerId": "pa-house"
+    },
+    "name": "Heather Boyd",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "6 S. Springfield Road Unit 1, Clifton Heights, PA 19018",
+      "phone": "484-200-1563"
+    },
+    "email": "hboyd@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2015.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-49",
+      "title": "PA State Representative, District 49",
+      "level": "state",
+      "districtNumber": "49",
+      "layerId": "pa-house"
+    },
+    "name": "Izzy Smith-Wade-El",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "150 E. King St. Suite B, Lancaster, PA 17602",
+      "phone": "717-283-4218"
+    },
+    "email": "repsmithwadeel@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1948.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-176",
+      "title": "PA State Representative, District 176",
+      "level": "state",
+      "districtNumber": "176",
+      "layerId": "pa-house"
+    },
+    "name": "Jack Rader",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Carriage House Square 2785 Route 115, Suite 103, Effort, PA 18330",
+      "phone": "570-620-4341"
+    },
+    "email": "jrader@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1703.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-126",
+      "title": "PA State Representative, District 126",
+      "level": "state",
+      "districtNumber": "126",
+      "layerId": "pa-house"
+    },
+    "name": "Jacklyn Rusnock",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4933 Kutztown Road, Temple, PA 19560",
+      "phone": "610-921-8921"
+    },
+    "email": "jrusnock@pahouse.net",
+    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQN8TGsUPRmCdJJis2P-yzcJsfaJRABStMDA&s",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-4",
+      "title": "PA State Representative, District 4",
+      "level": "state",
+      "districtNumber": "4",
+      "layerId": "pa-house"
+    },
+    "name": "Jake Banta",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Edinboro Borough Hall 124 Meadville St., Edinboro, PA 16412"
+    },
+    "email": "jbanta@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1937.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-62",
+      "title": "PA State Representative, District 62",
+      "level": "state",
+      "districtNumber": "62",
+      "layerId": "pa-house"
+    },
+    "name": "Jim Struzzi",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "550 Philadelphia St., Indiana, PA 15701",
+      "phone": "724-465-0220"
+    },
+    "email": "jstruzzi@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1835.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-36",
+      "title": "PA State Senator, District 36",
+      "level": "state",
+      "districtNumber": "36",
+      "layerId": "pa-senate"
+    },
+    "name": "James Malone",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "301 E. Main St., Lititz, PA 17543",
+      "phone": "717-627-0036"
+    },
+    "email": "malone@pasenate.com",
+    "photoUrl": "",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-124",
+      "title": "PA State Representative, District 124",
+      "level": "state",
+      "districtNumber": "124",
+      "layerId": "pa-house"
+    },
+    "name": "Jamie Barton",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "61 N. 3rd St., Hamburg, PA 19526",
+      "phone": "484-660-3721"
+    },
+    "email": "jbarton@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1968.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-83",
+      "title": "PA State Representative, District 83",
+      "level": "state",
+      "districtNumber": "83",
+      "layerId": "pa-house"
+    },
+    "name": "Jamie Flick",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1000 Commerce Park Drive Suite 103, Williamsport, PA 17701",
+      "phone": "570-321-1270"
+    },
+    "email": "jflick@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1954.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-117",
+      "title": "PA State Representative, District 117",
+      "level": "state",
+      "districtNumber": "117",
+      "layerId": "pa-house"
+    },
+    "name": "Jamie Walsh",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Scottdale Borough Building 669 State Route 93, Suite 1, Sugarloaf, PA 18249",
+      "phone": "570-359-2138"
+    },
+    "email": "jwalsh@pahousegop.com",
+    "photoUrl": "https://npr.brightspotcdn.com/dims4/default/eb103d1/2147483647/strip/true/crop/326x342+0+0/resize/880x923!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fed%2F90%2F0e6c8c9a46d28228ce6f3586809d%2Fwalsh.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-202",
+      "title": "PA State Representative, District 202",
+      "level": "state",
+      "districtNumber": "202",
+      "layerId": "pa-house"
+    },
+    "name": "Jared Solomon",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7104 Frankford Ave., Philadelphia, PA 19135",
+      "phone": "215-543-6755"
+    },
+    "email": "jsolomon@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1761.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-16",
+      "title": "PA State Senator, District 16",
+      "level": "state",
+      "districtNumber": "16",
+      "layerId": "pa-senate"
+    },
+    "name": "Jarrett Coleman",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Room 102, 314 Broad St., Quakertown, PA 18951",
+      "phone": "267-551-3744"
+    },
+    "email": "jcoleman@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2008.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-179",
+      "title": "PA State Representative, District 179",
+      "level": "state",
+      "districtNumber": "179",
+      "layerId": "pa-house"
+    },
+    "name": "Jason Dawkins",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4667 Paul St., Philadelphia, PA 19124",
+      "phone": "215-744-7901"
+    },
+    "email": "jdawkins@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1685.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-46",
+      "title": "PA State Representative, District 46",
+      "level": "state",
+      "districtNumber": "46",
+      "layerId": "pa-house"
+    },
+    "name": "Jason Ortitay",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "135 Technology Drive Suite 315 Bailey Center II, Canonsburg, PA 15317",
+      "phone": "412-221-5110"
+    },
+    "email": "jortitay@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1701.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-43",
+      "title": "PA State Senator, District 43",
+      "level": "state",
+      "districtNumber": "43",
+      "layerId": "pa-senate"
+    },
+    "name": "Jay Costa",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4736 Liberty Ave. Suite 1, Pittsburgh, PA 15224",
+      "phone": "412-578-8457"
+    },
+    "email": "costa@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/254.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-133",
+      "title": "PA State Representative, District 133",
+      "level": "state",
+      "districtNumber": "133",
+      "layerId": "pa-house"
+    },
+    "name": "Jeanne McNeill",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1080 Schadt Ave., Whitehall, PA 18052",
+      "phone": "610-266-1273"
+    },
+    "email": "jmcneill@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1793.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-139",
+      "title": "PA State Representative, District 139",
+      "level": "state",
+      "districtNumber": "139",
+      "layerId": "pa-house"
+    },
+    "name": "Jeff Olsommer",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2523 Route 6 Suite 2, Hawley, PA 18428",
+      "phone": "570-226-5959"
+    },
+    "email": "jolsommer@pahousegop.com",
+    "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jeff_Olsommer.jpeg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-42",
+      "title": "PA State Representative, District 42",
+      "level": "state",
+      "districtNumber": "42",
+      "layerId": "pa-house"
+    },
+    "name": "Jen Mazzocco",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "650 Washington Road Suite 102, Mt. Lebanon, PA 15228",
+      "phone": "412-343-3870"
+    },
+    "email": "repmazzocco@pahouse.net",
+    "photoUrl": "",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-165",
+      "title": "PA State Representative, District 165",
+      "level": "state",
+      "districtNumber": "165",
+      "layerId": "pa-house"
+    },
+    "name": "Jenn O'Mara",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "26 E. 4th St., Media, PA 19063",
+      "phone": "610-544-9878"
+    },
+    "email": "repomara@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1855.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-28",
+      "title": "PA State Representative, District 28",
+      "level": "state",
+      "districtNumber": "28",
+      "layerId": "pa-house"
+    },
+    "name": "Jeremy Shaffer",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "5500 Brooktree Road Suite 100, Wexford, PA 15090",
+      "phone": "412-369-2230"
+    },
+    "email": "jshaffer@pahousegop.com",
+    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSorGMaPu0r-cmKNo0wUJlamXWmBuybfdPUA&s",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-78",
+      "title": "PA State Representative, District 78",
+      "level": "state",
+      "districtNumber": "78",
+      "layerId": "pa-house"
+    },
+    "name": "Jesse Topper",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "421 Lincoln Way East Suite A, McConnellsburg, PA 17233"
+    },
+    "email": "jtopper@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1681.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-36",
+      "title": "PA State Representative, District 36",
+      "level": "state",
+      "districtNumber": "36",
+      "layerId": "pa-house"
+    },
+    "name": "Jessica Benham",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2600 Brownsville Road, Carrick, PA 15227",
+      "phone": "412-881-4208"
+    },
+    "email": "repbenham@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1899.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-55",
+      "title": "PA State Representative, District 55",
+      "level": "state",
+      "districtNumber": "55",
+      "layerId": "pa-house"
+    },
+    "name": "Jill Cooper",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Murrysville Community Center 3091 Carson Ave., Murrysville, PA 15668",
+      "phone": "724-387-1281"
+    },
+    "email": "jcooper@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1951.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-118",
+      "title": "PA State Representative, District 118",
+      "level": "state",
+      "districtNumber": "118",
+      "layerId": "pa-house"
+    },
+    "name": "Jim Haddock",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "802 S. Main St., Taylor, PA 18517",
+      "phone": "570-565-2014"
+    },
+    "email": "rephaddock@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1966.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-140",
+      "title": "PA State Representative, District 140",
+      "level": "state",
+      "districtNumber": "140",
+      "layerId": "pa-house"
+    },
+    "name": "Jim Prokopiak",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "8610 New Falls Road, Levittown, PA 19054",
+      "phone": "215-943-7206"
+    },
+    "email": "repprokopiak@pahouse.net",
+    "photoUrl": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/139571.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-71",
+      "title": "PA State Representative, District 71",
+      "level": "state",
+      "districtNumber": "71",
+      "layerId": "pa-house"
+    },
+    "name": "Jim Rigby",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "7447 Admiral Peary Highway Suite 4, Cresson, PA 16630",
+      "phone": "814-886-1055"
+    },
+    "email": "jrigby@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1836.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-191",
+      "title": "PA State Representative, District 191",
+      "level": "state",
+      "districtNumber": "191",
+      "layerId": "pa-house"
+    },
+    "name": "Joanna McClinton",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "149 S. 60th St., Philadelphia, PA 19139",
+      "phone": "215-748-6712"
+    },
+    "email": "repmcclinton@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1734.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-107",
+      "title": "PA State Representative, District 107",
+      "level": "state",
+      "districtNumber": "107",
+      "layerId": "pa-house"
+    },
+    "name": "Joanne Stehr",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "57 Park Lane, Hegins, PA 17938",
+      "phone": "570-653-2018"
+    },
+    "email": "jstehr@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1961.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-146",
+      "title": "PA State Representative, District 146",
+      "level": "state",
+      "districtNumber": "146",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Ciresi",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Park Towne Plaza 301 N. Lewis Road, Royersford, PA 19468",
+      "phone": "484-200-8265"
+    },
+    "email": "jciresi@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1847.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-137",
+      "title": "PA State Representative, District 137",
+      "level": "state",
+      "districtNumber": "137",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Emrick",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "301 Village at Stones Crossing Road, Easton, PA 18045",
+      "phone": "484-544-0146"
+    },
+    "email": "jemrick@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1207.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-84",
+      "title": "PA State Representative, District 84",
+      "level": "state",
+      "districtNumber": "84",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Hamm",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "7406 State Route 487 Suite 7, Mildred, PA 18632",
+      "phone": "570-314-2036"
+    },
+    "email": "jhamm@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1904.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-142",
+      "title": "PA State Representative, District 142",
+      "level": "state",
+      "districtNumber": "142",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Hogan",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "51 School Lane, Feasterville, PA 19053",
+      "phone": "215-942-4067"
+    },
+    "email": "jhogan@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1971.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-125",
+      "title": "PA State Representative, District 125",
+      "level": "state",
+      "districtNumber": "125",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Kerwin",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "5821 Linglestown Road Suite 204, Harrisburg, PA 17112",
+      "phone": "717-652-6820"
+    },
+    "email": "jkerwin@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1907.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-32",
+      "title": "PA State Representative, District 32",
+      "level": "state",
+      "districtNumber": "32",
+      "layerId": "pa-house"
+    },
+    "name": "Joe McAndrew",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "77 Universal Road Suite 1, Penn Hills, PA 15235",
+      "phone": "412-793-2448"
+    },
+    "email": "repmcandrew@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2011.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-5",
+      "title": "PA State Senator, District 5",
+      "level": "state",
+      "districtNumber": "5",
+      "layerId": "pa-senate"
+    },
+    "name": "Joe Picozzi",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "12361 Academy Road, Philadelphia, PA 19154",
+      "phone": "215-281-2539"
+    },
+    "email": "jpicozzi@pasen.gov",
+    "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Abdullah_Muzammil_20240808_100242.png",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-41",
+      "title": "PA State Senator, District 41",
+      "level": "state",
+      "districtNumber": "41",
+      "layerId": "pa-senate"
+    },
+    "name": "Joe Pittman",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "618 Philadelphia St., Indiana, PA 15701",
+      "phone": "724-357-0151"
+    },
+    "email": "",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1870.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-150",
+      "title": "PA State Representative, District 150",
+      "level": "state",
+      "districtNumber": "150",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Webster",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "35 Evansburg Road, Collegeville, PA 19426",
+      "phone": "484-200-8263"
+    },
+    "email": "repwebster@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1848.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-129",
+      "title": "PA State Representative, District 129",
+      "level": "state",
+      "districtNumber": "129",
+      "layerId": "pa-house"
+    },
+    "name": "Johanny Cepeda-Freytiz",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1111 Penn Ave., Wyomissing, PA 19610",
+      "phone": "484-577-2756"
+    },
+    "email": "repcepedafreytiz@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1969.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-13",
+      "title": "PA State Representative, District 13",
+      "level": "state",
+      "districtNumber": "13",
+      "layerId": "pa-house"
+    },
+    "name": "John Lawrence",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1 Commerce Blvd. Suite 200, West Grove, PA 19390",
+      "phone": "610-869-1602"
+    },
+    "email": "jlawrenc@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1215.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-101",
+      "title": "PA State Representative, District 101",
+      "level": "state",
+      "districtNumber": "101",
+      "layerId": "pa-house"
+    },
+    "name": "John Schlegel",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2272 Lebanon Valley Mall Unit E2, Lebanon, PA 17042",
+      "phone": "717-838-3823"
+    },
+    "email": "jschlegel@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1958.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-9",
+      "title": "PA State Senator, District 9",
+      "level": "state",
+      "districtNumber": "9",
+      "layerId": "pa-senate"
+    },
+    "name": "John Kane",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "504 Avenue of the States 1st Floor, Chester, PA 19013",
+      "phone": "610-447-5845"
+    },
+    "email": "kane@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1925.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-38",
+      "title": "PA State Representative, District 38",
+      "level": "state",
+      "districtNumber": "38",
+      "layerId": "pa-house"
+    },
+    "name": "John Inglis",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "3563 Mountain View Drive, West Mifflin, PA 15122",
+      "phone": "412-466-1940"
+    },
+    "email": "repinglis@pahouse.net",
+    "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JohnInglis2024.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-111",
+      "title": "PA State Representative, District 111",
+      "level": "state",
+      "districtNumber": "111",
+      "layerId": "pa-house"
+    },
+    "name": "Jonathan Fritz",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Preston Township Building 1515 Crosstown Highway, Lakewood, PA 18439"
+    },
+    "email": "jfritz@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1752.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-186",
+      "title": "PA State Representative, District 186",
+      "level": "state",
+      "districtNumber": "186",
+      "layerId": "pa-house"
+    },
+    "name": "Jordan Harris",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "5515 Chester Ave., Philadelphia, PA 19143",
+      "phone": "215-755-9185"
+    },
+    "email": "repharris@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1633.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-180",
+      "title": "PA State Representative, District 180",
+      "level": "state",
+      "districtNumber": "180",
+      "layerId": "pa-house"
+    },
+    "name": "José Giral",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "3503 B St. Unit 7, Philadelphia, PA 19134",
+      "phone": "215-291-5643"
+    },
+    "email": "repgiral@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1980.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-177",
+      "title": "PA State Representative, District 177",
+      "level": "state",
+      "districtNumber": "177",
+      "layerId": "pa-house"
+    },
+    "name": "Joe Hohenstein",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7104 Torresdale Ave., Philadelphia, PA 19135"
+    },
+    "email": "jhohenstein@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1858.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-47",
+      "title": "PA State Representative, District 47",
+      "level": "state",
+      "districtNumber": "47",
+      "layerId": "pa-house"
+    },
+    "name": "Joe D'Orsie",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "4186 Lincoln Highway Suite B, York, PA 17406",
+      "phone": "717-840-4711"
+    },
+    "email": "jdorsie@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1947.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-63",
+      "title": "PA State Representative, District 63",
+      "level": "state",
+      "districtNumber": "63",
+      "layerId": "pa-house"
+    },
+    "name": "Josh Bashline",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "200 N. Jefferson St., Kittanning, PA 16201",
+      "phone": "724-954-3613"
+    },
+    "email": "jbashline@pahousegop.com",
+    "photoUrl": "https://www.exploreclarion.com/wp-content/uploads/sites/2/2024/02/Josh-Bashline-Enters-Race-for-63rd-State-House-District.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-15",
+      "title": "PA State Representative, District 15",
+      "level": "state",
+      "districtNumber": "15",
+      "layerId": "pa-house"
+    },
+    "name": "Josh Kail",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "690 State Ave., Beaver, PA 15009",
+      "phone": "724-728-7655"
+    },
+    "email": "jkail@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1823.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-11",
+      "title": "PA State Senator, District 11",
+      "level": "state",
+      "districtNumber": "11",
+      "layerId": "pa-senate"
+    },
+    "name": "Judy Schwank",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "210 George St. Suite 201, Reading, PA 19605",
+      "phone": "610-929-2151"
+    },
+    "email": "senatorschwank@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1234.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-30",
+      "title": "PA State Senator, District 30",
+      "level": "state",
+      "districtNumber": "30",
+      "layerId": "pa-senate"
+    },
+    "name": "Judy Ward",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "3 W. Market St. Suite 201, Lewistown, PA 17044",
+      "phone": "717-210-5700"
+    },
+    "email": "jward@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1683.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-105",
+      "title": "PA State Representative, District 105",
+      "level": "state",
+      "districtNumber": "105",
+      "layerId": "pa-house"
+    },
+    "name": "Justin Fleming",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4807 Jonestown Road Suite 149, First Floor, Harrisburg, PA 17109",
+      "phone": "717-230-1172"
+    },
+    "email": "repfleming@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1960.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-169",
+      "title": "PA State Representative, District 169",
+      "level": "state",
+      "districtNumber": "169",
+      "layerId": "pa-house"
+    },
+    "name": "Kate Klunk",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "118 Carlisle St. Suite 300, Hanover, PA 17331",
+      "phone": "717-630-8942"
+    },
+    "email": "kklunk@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1694.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-18",
+      "title": "PA State Representative, District 18",
+      "level": "state",
+      "districtNumber": "18",
+      "layerId": "pa-house"
+    },
+    "name": "K.C. Tomlinson",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Neshaminy Valley Commons 2424 Bristol Road, Bensalem, PA 19020",
+      "phone": "215-750-1017"
+    },
+    "email": "ktomlinson@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1876.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-65",
+      "title": "PA State Representative, District 65",
+      "level": "state",
+      "districtNumber": "65",
+      "layerId": "pa-house"
+    },
+    "name": "Kathy Rapp",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "404 Market St., Warren, PA 16365",
+      "phone": "814-723-5203"
+    },
+    "email": "klrapp@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1028.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-44",
+      "title": "PA State Senator, District 44",
+      "level": "state",
+      "districtNumber": "44",
+      "layerId": "pa-senate"
+    },
+    "name": "Katie Muth",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "338 Main St., Royersford, PA 19468",
+      "phone": "610-792-2137"
+    },
+    "email": "senatormuth@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1802.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-195",
+      "title": "PA State Representative, District 195",
+      "level": "state",
+      "districtNumber": "195",
+      "layerId": "pa-house"
+    },
+    "name": "Keith Harris",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2835 Girard Ave., Philadelphia, PA 19130",
+      "phone": "215-684-3738"
+    },
+    "email": "kharris@pahouse.net",
+    "photoUrl": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/150757.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-43",
+      "title": "PA State Representative, District 43",
+      "level": "state",
+      "districtNumber": "43",
+      "layerId": "pa-house"
+    },
+    "name": "Keith Greiner",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "West Earl Township Building 157 W. Metzler Road, Suite 103, Ephrata, PA 17522",
+      "phone": "717-588-2044"
+    },
+    "email": "kgreiner@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1632.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-171",
+      "title": "PA State Representative, District 171",
+      "level": "state",
+      "districtNumber": "171",
+      "layerId": "pa-house"
+    },
+    "name": "Kerry Benninghoff",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "140 W. High St., Bellefonte, PA 16823",
+      "phone": "814-355-1300"
+    },
+    "email": "kbenning@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/215.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-39",
+      "title": "PA State Senator, District 39",
+      "level": "state",
+      "districtNumber": "39",
+      "layerId": "pa-senate"
+    },
+    "name": "Kim Ward",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Westmoreland Crossroads Plaza 1075 S. Main St., Suite 116, Greensburg, PA 15601",
+      "phone": "724-600-7002"
+    },
+    "email": "kward@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1188.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-28",
+      "title": "PA State Senator, District 28",
+      "level": "state",
+      "districtNumber": "28",
+      "layerId": "pa-senate"
+    },
+    "name": "Kristin Phillips-Hill",
+    "party": "Republican",
+    "email": "senatorkristin@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1801.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-178",
+      "title": "PA State Representative, District 178",
+      "level": "state",
+      "districtNumber": "178",
+      "layerId": "pa-house"
+    },
+    "name": "Kristin Marcell",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1038 2nd Street Pike Suite 101, Richboro, PA 18954",
+      "phone": "215-364-3414"
+    },
+    "email": "kmarcell@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1979.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-167",
+      "title": "PA State Representative, District 167",
+      "level": "state",
+      "districtNumber": "167",
+      "layerId": "pa-house"
+    },
+    "name": "Kristine Howard",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Greentree Office Building 40 Lloyd Ave., Suite 309, Malvern, PA 19355",
+      "phone": "610-251-1070"
+    },
+    "email": "khoward@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1856.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-113",
+      "title": "PA State Representative, District 113",
+      "level": "state",
+      "districtNumber": "113",
+      "layerId": "pa-house"
+    },
+    "name": "Kyle Donahue",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "123 Van Brunt St., Moscow, PA 18444",
+      "phone": "570-842-8116"
+    },
+    "email": "repdonahue@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1963.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-112",
+      "title": "PA State Representative, District 112",
+      "level": "state",
+      "districtNumber": "112",
+      "layerId": "pa-house"
+    },
+    "name": "Kyle Mullins",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1400 Main St. Suite 101, Peckville, PA 18452",
+      "phone": "570-383-9795"
+    },
+    "email": "repmullins@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1844.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-24",
+      "title": "PA State Representative, District 24",
+      "level": "state",
+      "districtNumber": "24",
+      "layerId": "pa-house"
+    },
+    "name": "La'Tasha Mayes",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2015-2017 Centre Ave. Floor 1, Pittsburgh, PA 15219",
+      "phone": "412-665-5502"
+    },
+    "email": "repmayes@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1941.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-161",
+      "title": "PA State Representative, District 161",
+      "level": "state",
+      "districtNumber": "161",
+      "layerId": "pa-house"
+    },
+    "name": "Leanne Krueger",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "115 E. Brookhaven Road, Brookhaven, PA 19015",
+      "phone": "610-534-6880"
+    },
+    "email": "repkrueger@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1735.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-59",
+      "title": "PA State Representative, District 59",
+      "level": "state",
+      "districtNumber": "59",
+      "layerId": "pa-house"
+    },
+    "name": "Leslie Rossi",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Ligonier Township Building 1 Municipal Park Drive, Ligonier, PA 15658",
+      "phone": "724-238-2155"
+    },
+    "email": "lrossi@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1927.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-21",
+      "title": "PA State Representative, District 21",
+      "level": "state",
+      "districtNumber": "21",
+      "layerId": "pa-house"
+    },
+    "name": "Lindsay Powell",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "5154 Butler St., Pittsburgh, PA 15201",
+      "phone": "412-781-2750"
+    },
+    "email": "reppowell@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2016.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-38",
+      "title": "PA State Senator, District 38",
+      "level": "state",
+      "districtNumber": "38",
+      "layerId": "pa-senate"
+    },
+    "name": "Lindsey Williams",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "5000 McKnight Road Suite 405, Pittsburgh, PA 15237",
+      "phone": "412-364-0469"
+    },
+    "email": "senatorlindseywilliams@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1803.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-168",
+      "title": "PA State Representative, District 168",
+      "level": "state",
+      "districtNumber": "168",
+      "layerId": "pa-house"
+    },
+    "name": "Lisa Borowski",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "24 S. Newtown St. Road Suite 100, Newtown Square, PA 19073",
+      "phone": "484-427-2884"
+    },
+    "email": "repborowski@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1977.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-20",
+      "title": "PA State Senator, District 20",
+      "level": "state",
+      "districtNumber": "20",
+      "layerId": "pa-senate"
+    },
+    "name": "Lisa Baker",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "50 N. Walnut St. Suite 105, Nanticoke, PA 18634",
+      "phone": "570-740-2432"
+    },
+    "email": "lbaker@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1077.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-18",
+      "title": "PA State Senator, District 18",
+      "level": "state",
+      "districtNumber": "18",
+      "layerId": "pa-senate"
+    },
+    "name": "Lisa Boscola",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1701 Washington Blvd., Easton, PA 18042",
+      "phone": "610-250-5627"
+    },
+    "email": "boscola@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/179.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-61",
+      "title": "PA State Representative, District 61",
+      "level": "state",
+      "districtNumber": "61",
+      "layerId": "pa-house"
+    },
+    "name": "Liz Hanbidge",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1098 W. Skippack Pike, Blue Bell, PA 19422",
+      "phone": "610-277-3230"
+    },
+    "email": "lhanbidge@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1834.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-27",
+      "title": "PA State Senator, District 27",
+      "level": "state",
+      "districtNumber": "27",
+      "layerId": "pa-senate"
+    },
+    "name": "Lynda Culver",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "PA",
+      "phone": "570-387-4267"
+    },
+    "email": "lculver@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1202.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-181",
+      "title": "PA State Representative, District 181",
+      "level": "state",
+      "districtNumber": "181",
+      "layerId": "pa-house"
+    },
+    "name": "Malcolm Kenyatta",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1501 N. Broad St. Suite 17, Philadelphia, PA 19122",
+      "phone": "215-978-0311"
+    },
+    "email": "mkenyatta@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1860.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-33",
+      "title": "PA State Representative, District 33",
+      "level": "state",
+      "districtNumber": "33",
+      "layerId": "pa-house"
+    },
+    "name": "Mandy Steele",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1296 Pittsburgh St., Cheswick, PA 15204",
+      "phone": "724-826-5151"
+    },
+    "email": "repsteele@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1945.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-127",
+      "title": "PA State Representative, District 127",
+      "level": "state",
+      "districtNumber": "127",
+      "layerId": "pa-house"
+    },
+    "name": "Manny Guzman",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "645 Penn St. Fourth Floor, Reading, PA 19601",
+      "phone": "610-376-1529"
+    },
+    "email": "repguzman@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1908.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-92",
+      "title": "PA State Representative, District 92",
+      "level": "state",
+      "districtNumber": "92",
+      "layerId": "pa-house"
+    },
+    "name": "Marc Anderson",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1 E. Harrisburg St., Dillsburg, PA 17019",
+      "phone": "717-432-0792"
+    },
+    "email": "manderson@pahousegop.com",
+    "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Marc_Anderson_20241007_034013.jpeg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-11",
+      "title": "PA State Representative, District 11",
+      "level": "state",
+      "districtNumber": "11",
+      "layerId": "pa-house"
+    },
+    "name": "Marci Mustello",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Kerven Building 100 Barracks Road, Butler, PA 16001",
+      "phone": "724-283-5852"
+    },
+    "email": "mmustello@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1868.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-12",
+      "title": "PA State Senator, District 12",
+      "level": "state",
+      "districtNumber": "12",
+      "layerId": "pa-senate"
+    },
+    "name": "Maria Collett",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1035 Virginia Drive Suite 201, Fort Washington, PA 19034",
+      "phone": "215-368-1429"
+    },
+    "email": "senatorcollett@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1799.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-128",
+      "title": "PA State Representative, District 128",
+      "level": "state",
+      "districtNumber": "128",
+      "layerId": "pa-house"
+    },
+    "name": "Mark Gillen",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "29 Village Center Drive Suite A-7, Reading, PA 19607",
+      "phone": "610-775-5130"
+    },
+    "email": "mgillen@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1209.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-9",
+      "title": "PA State Representative, District 9",
+      "level": "state",
+      "districtNumber": "9",
+      "layerId": "pa-house"
+    },
+    "name": "Marla Brown",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Washington Centre Plaza 28 N. Mill St., New Castle, PA 16101",
+      "phone": "724-498-4397"
+    },
+    "email": "mbrown@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1938.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-67",
+      "title": "PA State Representative, District 67",
+      "level": "state",
+      "districtNumber": "67",
+      "layerId": "pa-house"
+    },
+    "name": "Marty Causer",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "78 Main St. First Floor, Bradford, PA 16701",
+      "phone": "814-362-4400"
+    },
+    "email": "mcauser@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/982.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-170",
+      "title": "PA State Representative, District 170",
+      "level": "state",
+      "districtNumber": "170",
+      "layerId": "pa-house"
+    },
+    "name": "Martina White",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2901 Southampton Road, Philadelphia, PA 19154",
+      "phone": "215-330-3711"
+    },
+    "email": "mwhite@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1732.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-22",
+      "title": "PA State Senator, District 22",
+      "level": "state",
+      "districtNumber": "22",
+      "layerId": "pa-senate"
+    },
+    "name": "Marty Flynn",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Jay’s Commons 409 N. Main Ave., Scranton, PA 18504",
+      "phone": "570-207-2881"
+    },
+    "email": "flynn@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1626.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-148",
+      "title": "PA State Representative, District 148",
+      "level": "state",
+      "districtNumber": "148",
+      "layerId": "pa-house"
+    },
+    "name": "Mary Jo Daley",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "312 Old Lancaster Rd., Merion Station, PA 19066",
+      "phone": "610-832-1679"
+    },
+    "email": "repmaryjodaley@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1622.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-175",
+      "title": "PA State Representative, District 175",
+      "level": "state",
+      "districtNumber": "175",
+      "layerId": "pa-house"
+    },
+    "name": "Mary Isaacson",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "610 N. 2nd St., Philadelphia, PA 19123",
+      "phone": "215-503-3245"
+    },
+    "email": "misaacson@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1857.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-70",
+      "title": "PA State Representative, District 70",
+      "level": "state",
+      "districtNumber": "70",
+      "layerId": "pa-house"
+    },
+    "name": "Matt Bradford",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "240 W. Germantown Pike First Floor, Norristown, PA 19401",
+      "phone": "610-270-1150"
+    },
+    "email": "repbradford@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1161.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-115",
+      "title": "PA State Representative, District 115",
+      "level": "state",
+      "districtNumber": "115",
+      "layerId": "pa-house"
+    },
+    "name": "Maureen Madden",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Room 4, The Mountain Center 354 Memorial Blvd., Tobyhanna, PA 18466",
+      "phone": "570-894-7905"
+    },
+    "email": "repmadden@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1753.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-151",
+      "title": "PA State Representative, District 151",
+      "level": "state",
+      "districtNumber": "151",
+      "layerId": "pa-house"
+    },
+    "name": "Missy Cerrato",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "605 Horsham Road, Horsham, PA 19044",
+      "phone": "267-282-6695"
+    },
+    "email": "repcerrato@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1974.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-157",
+      "title": "PA State Representative, District 157",
+      "level": "state",
+      "districtNumber": "157",
+      "layerId": "pa-house"
+    },
+    "name": "Melissa Shusterman",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1536 E. Lancaster Ave. Suite 200, Paoli, PA 19301",
+      "phone": "484-200-8260"
+    },
+    "email": "repshusterman@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1851.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-108",
+      "title": "PA State Representative, District 108",
+      "level": "state",
+      "districtNumber": "108",
+      "layerId": "pa-house"
+    },
+    "name": "Michael Stender",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Montour County Administration Building 435 E. Front St., Danville, PA 17821",
+      "phone": "570-275-3700"
+    },
+    "email": "mstender@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2014.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-132",
+      "title": "PA State Representative, District 132",
+      "level": "state",
+      "districtNumber": "132",
+      "layerId": "pa-house"
+    },
+    "name": "Mike Schlossberg",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "5100 Tilghman St. Suite 200, Allentown, PA 18104",
+      "phone": "610-821-5577"
+    },
+    "email": "repschlossberg@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1649.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-50",
+      "title": "PA State Senator, District 50",
+      "level": "state",
+      "districtNumber": "50",
+      "layerId": "pa-senate"
+    },
+    "name": "Michele Brooks",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1905 W. State St., New Castle, PA 16101",
+      "phone": "724-654-1444"
+    },
+    "email": "mbrooks@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1087.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-75",
+      "title": "PA State Representative, District 75",
+      "level": "state",
+      "districtNumber": "75",
+      "layerId": "pa-house"
+    },
+    "name": "Mike Armanini",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "DuBois Area Plaza 1221 E. DuBois Ave., Suite 10, DuBois, PA 15801",
+      "phone": "814-375-4688"
+    },
+    "email": "marmanini@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1903.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-93",
+      "title": "PA State Representative, District 93",
+      "level": "state",
+      "districtNumber": "93",
+      "layerId": "pa-house"
+    },
+    "name": "Mike Jones",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1949 Security Drive, York, PA 17402",
+      "phone": "717-428-9889"
+    },
+    "email": "mjones@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1842.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-131",
+      "title": "PA State Representative, District 131",
+      "level": "state",
+      "districtNumber": "131",
+      "layerId": "pa-house"
+    },
+    "name": "Milou Mackenzie",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Red Hill Borough Building 56 W. 4th St., Red Hill, PA 18076",
+      "phone": "215-679-3152"
+    },
+    "email": "mmackenzie@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1909.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-37",
+      "title": "PA State Representative, District 37",
+      "level": "state",
+      "districtNumber": "37",
+      "layerId": "pa-house"
+    },
+    "name": "Mindy Fee",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "47 Market Square, Manheim, PA 17545",
+      "phone": "717-664-4979"
+    },
+    "email": "mfee@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1625.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-192",
+      "title": "PA State Representative, District 192",
+      "level": "state",
+      "districtNumber": "192",
+      "layerId": "pa-house"
+    },
+    "name": "Morgan Cephas",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7538 Haverford Ave., Philadelphia, PA 19151",
+      "phone": "215-879-6625"
+    },
+    "email": "mcephas@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1759.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-152",
+      "title": "PA State Representative, District 152",
+      "level": "state",
+      "districtNumber": "152",
+      "layerId": "pa-house"
+    },
+    "name": "Nancy Guenst",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "19 S. York Road, Hatboro, PA 19040",
+      "phone": "215-259-5962"
+    },
+    "email": "repguenst@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1913.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-154",
+      "title": "PA State Representative, District 154",
+      "level": "state",
+      "districtNumber": "154",
+      "layerId": "pa-house"
+    },
+    "name": "Napoleon Nelson",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "115 E. Glenside Ave. Suite 8, Glenside, PA 19038",
+      "phone": "215-572-5210"
+    },
+    "email": "repnelson@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1914.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-40",
+      "title": "PA State Representative, District 40",
+      "level": "state",
+      "districtNumber": "40",
+      "layerId": "pa-house"
+    },
+    "name": "Natalie Mihalek",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1121 Boyce Road Suite 2200A, Pittsburgh, PA 15241",
+      "phone": "724-942-2045"
+    },
+    "email": "nmihalek@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1830.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-103",
+      "title": "PA State Representative, District 103",
+      "level": "state",
+      "districtNumber": "103",
+      "layerId": "pa-house"
+    },
+    "name": "Nate Davidson",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "717 Market St. Suite 110, Lemoyne, PA 17043",
+      "phone": "717-303-3715"
+    },
+    "email": "repdavidson@pahouse.net",
+    "photoUrl": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/133354.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-14",
+      "title": "PA State Senator, District 14",
+      "level": "state",
+      "districtNumber": "14",
+      "layerId": "pa-senate"
+    },
+    "name": "Nick Miller",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "740 W. Hamilton St. Suite 200, Allentown, PA 18101",
+      "phone": "610-821-8468"
+    },
+    "email": "miller@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/2009.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-45",
+      "title": "PA State Senator, District 45",
+      "level": "state",
+      "districtNumber": "45",
+      "layerId": "pa-senate"
+    },
+    "name": "Nick Pisciottano",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Public Safety Building 201 Lysle Boulevard, Suite 100, McKeesport, PA 15132",
+      "phone": "412-664-5200"
+    },
+    "email": "nick.pisciottano@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1900.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-1",
+      "title": "PA State Senator, District 1",
+      "level": "state",
+      "districtNumber": "1",
+      "layerId": "pa-senate"
+    },
+    "name": "Nikil Saval",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1434 Germantown Ave., Philadelphia, PA 19122",
+      "phone": "215-952-3119"
+    },
+    "email": "saval@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1921.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-96",
+      "title": "PA State Representative, District 96",
+      "level": "state",
+      "districtNumber": "96",
+      "layerId": "pa-house"
+    },
+    "name": "Nikki Rivera",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "1560 Lititz Pike Suite 2, Lancaster, PA 17601",
+      "phone": "717-295-3157"
+    },
+    "email": "reprivera@pahouse.net",
+    "photoUrl": "https://static.wixstatic.com/media/ac23d4_f90c7e4f91684d28939b38f61d2cd0ae~mv2.jpg/v1/fill/w_640,h_554,al_t,q_80,usm_0.66_1.00_0.01,enc_auto/ac23d4_f90c7e4f91684d28939b38f61d2cd0ae~mv2.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-7",
+      "title": "PA State Representative, District 7",
+      "level": "state",
+      "districtNumber": "7",
+      "layerId": "pa-house"
+    },
+    "name": "Parke Wentling",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Greenville Area Chamber of Commerce 182 Main St., Greenville, PA 16125",
+      "phone": "724-638-4101"
+    },
+    "email": "pwentling@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1709.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-173",
+      "title": "PA State Representative, District 173",
+      "level": "state",
+      "districtNumber": "173",
+      "layerId": "pa-house"
+    },
+    "name": "Pat Gallagher",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "8760 Frankford Ave., Philadelphia, PA 19136",
+      "phone": "215-281-3414"
+    },
+    "email": "repgallagher@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1978.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-1",
+      "title": "PA State Representative, District 1",
+      "level": "state",
+      "districtNumber": "1",
+      "layerId": "pa-house"
+    },
+    "name": "Pat Harkins",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "460 E. 26th St., Erie, PA 16504",
+      "phone": "814-459-1949"
+    },
+    "email": "pharkins@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1081.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-32",
+      "title": "PA State Senator, District 32",
+      "level": "state",
+      "districtNumber": "32",
+      "layerId": "pa-senate"
+    },
+    "name": "Pat Stefano",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "171 W. Crawford Ave. 2nd Floor, Connellsville, PA 15425",
+      "phone": "724-626-1611"
+    },
+    "email": "pstefano@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1697.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-15",
+      "title": "PA State Senator, District 15",
+      "level": "state",
+      "districtNumber": "15",
+      "layerId": "pa-senate"
+    },
+    "name": "Patty Kim",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Colonial Crossings Plaza 716 Colonial Road, Harrisburg, PA 17112",
+      "phone": "717-346-6278"
+    },
+    "email": "patty.kim@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1636.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-26",
+      "title": "PA State Representative, District 26",
+      "level": "state",
+      "districtNumber": "26",
+      "layerId": "pa-house"
+    },
+    "name": "Paul Friel",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "68 Glocker Way, Pottstown, PA 19465",
+      "phone": "610-427-8782"
+    },
+    "email": "repfriel@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1942.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-82",
+      "title": "PA State Representative, District 82",
+      "level": "state",
+      "districtNumber": "82",
+      "layerId": "pa-house"
+    },
+    "name": "Paul Takac",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "216 W. Hamilton Ave., State College, PA 16801",
+      "phone": "814-308-0569"
+    },
+    "email": "reptakac@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1953.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-86",
+      "title": "PA State Representative, District 86",
+      "level": "state",
+      "districtNumber": "86",
+      "layerId": "pa-house"
+    },
+    "name": "Perry Stambaugh",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "417 W. Main St., New Bloomfield, PA 17068",
+      "phone": "717-582-8119"
+    },
+    "email": "pstambaugh@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1905.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-31",
+      "title": "PA State Representative, District 31",
+      "level": "state",
+      "districtNumber": "31",
+      "layerId": "pa-house"
+    },
+    "name": "Perry Warren",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "509 Floral Vale Blvd., Yardley, PA 19067",
+      "phone": "215-493-5420"
+    },
+    "email": "repwarren@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1743.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-134",
+      "title": "PA State Representative, District 134",
+      "level": "state",
+      "districtNumber": "134",
+      "layerId": "pa-house"
+    },
+    "name": "Pete Schweyer",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2132 S. 12th St. Suite 306, Allentown, PA 18103",
+      "phone": "610-791-6270"
+    },
+    "email": "repschweyer@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1706.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-64",
+      "title": "PA State Representative, District 64",
+      "level": "state",
+      "districtNumber": "64",
+      "layerId": "pa-house"
+    },
+    "name": "Lee James",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "104 N. Washington Ave. Suite 2, Titusville, PA 16354",
+      "phone": "814-827-6054"
+    },
+    "email": "rljames@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1634.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-185",
+      "title": "PA State Representative, District 185",
+      "level": "state",
+      "districtNumber": "185",
+      "layerId": "pa-house"
+    },
+    "name": "Regina Young",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "6844 Elmwood Ave., Philadelphia, PA 19142",
+      "phone": "215-952-3376"
+    },
+    "email": "repyoung@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1917.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-81",
+      "title": "PA State Representative, District 81",
+      "level": "state",
+      "districtNumber": "81",
+      "layerId": "pa-house"
+    },
+    "name": "Rich Irvin",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "703 Municipal Drive, Shippensburg, PA 17257",
+      "phone": "717-532-1707"
+    },
+    "email": "rirvin@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1691.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-188",
+      "title": "PA State Representative, District 188",
+      "level": "state",
+      "districtNumber": "188",
+      "layerId": "pa-house"
+    },
+    "name": "Rick Krajewski",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4712 Baltimore Ave., Philadelphia, PA 19143",
+      "phone": "215-724-2227"
+    },
+    "email": "repkrajewski@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1918.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-89",
+      "title": "PA State Representative, District 89",
+      "level": "state",
+      "districtNumber": "89",
+      "layerId": "pa-house"
+    },
+    "name": "Rob Kauffman",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Southampton Township Supervisor's Building 705 Municipal Drive, Shippensburg, PA 17257",
+      "phone": "717-532-1707"
+    },
+    "email": "rkauffma@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1022.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-2",
+      "title": "PA State Representative, District 2",
+      "level": "state",
+      "districtNumber": "2",
+      "layerId": "pa-house"
+    },
+    "name": "Bob Merski",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "3921 Buffalo Road, Erie, PA 16510",
+      "phone": "814-455-6319"
+    },
+    "email": "rmerski@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1822.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-16",
+      "title": "PA State Representative, District 16",
+      "level": "state",
+      "districtNumber": "16",
+      "layerId": "pa-house"
+    },
+    "name": "Rob Matzie",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Center Township Office, Lucci Plaza 3589 Brodhead Road, Suite 5, Monaca, PA 15061",
+      "phone": "724-987-4341"
+    },
+    "email": "rmatzie@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1173.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-136",
+      "title": "PA State Representative, District 136",
+      "level": "state",
+      "districtNumber": "136",
+      "layerId": "pa-house"
+    },
+    "name": "Bob Freeman",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "215 Northampton St., Easton, PA 18042",
+      "phone": "610-253-5543"
+    },
+    "email": "rfreeman@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/136.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-109",
+      "title": "PA State Representative, District 109",
+      "level": "state",
+      "districtNumber": "109",
+      "layerId": "pa-house"
+    },
+    "name": "Robert Leadbeter",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "555 River Hill Drive, Catawissa, PA 17820",
+      "phone": "570-387-0246"
+    },
+    "email": "rleadbeter@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1962.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-14",
+      "title": "PA State Representative, District 14",
+      "level": "state",
+      "districtNumber": "14",
+      "layerId": "pa-house"
+    },
+    "name": "Roman Kozak",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Economy Borough Building 2856 Conway Wallrose Road, Baden, PA 15005"
+    },
+    "email": "rkozak@pahousegop.com",
+    "photoUrl": "https://www.beavercountygop.com/wp-content/uploads/RK.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-40",
+      "title": "PA State Senator, District 40",
+      "level": "state",
+      "districtNumber": "40",
+      "layerId": "pa-senate"
+    },
+    "name": "Rosemary Brown",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "487 Cortez Road, Jefferson Township, PA 18436",
+      "phone": "570-213-5705"
+    },
+    "email": "rbrown@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1200.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-102",
+      "title": "PA State Representative, District 102",
+      "level": "state",
+      "districtNumber": "102",
+      "layerId": "pa-house"
+    },
+    "name": "Russ Diamond",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "175 S. Lancaster St., Jonestown, PA 17038",
+      "phone": "717-277-2101"
+    },
+    "email": "rdiamond@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1686.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-3",
+      "title": "PA State Representative, District 3",
+      "level": "state",
+      "districtNumber": "3",
+      "layerId": "pa-house"
+    },
+    "name": "Ryan Bizzarro",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Peninsula Plaza 1101 Peninsula Drive, Suite 213, Erie, PA 16505",
+      "phone": "814-835-2880"
+    },
+    "email": "repbizzarro@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1619.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-52",
+      "title": "PA State Representative, District 52",
+      "level": "state",
+      "districtNumber": "52",
+      "layerId": "pa-house"
+    },
+    "name": "Ryan Warner",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Perryopolis Borough Building 312 E. Independence St., Perryopolis, PA 15473",
+      "phone": "724-736-2290"
+    },
+    "email": "rwarner@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1708.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-80",
+      "title": "PA State Representative, District 80",
+      "level": "state",
+      "districtNumber": "80",
+      "layerId": "pa-house"
+    },
+    "name": "Scott Barger",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "Scottdale Borough Building 135 Stadium Drive, Suite 1, Bellwood, PA 16617",
+      "phone": "814-742-7204"
+    },
+    "email": "sbarger@pahousegop.com",
+    "photoUrl": "https://ogden_images.s3.amazonaws.com/www.altoonamirror.com/images/2023/02/06211342/Scott-barger-561x840.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-77",
+      "title": "PA State Representative, District 77",
+      "level": "state",
+      "districtNumber": "77",
+      "layerId": "pa-house"
+    },
+    "name": "Scott Conklin",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "301 S. Allen St., State College, PA 16801",
+      "phone": "814-238-5477"
+    },
+    "email": "sconklin@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1096.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-21",
+      "title": "PA State Senator, District 21",
+      "level": "state",
+      "districtNumber": "21",
+      "layerId": "pa-senate"
+    },
+    "name": "Scott Hutchinson",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "229 Elm St., Oil City, PA 16301",
+      "phone": "814-677-6345"
+    },
+    "email": "shutchinson@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1629.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-13",
+      "title": "PA State Senator, District 13",
+      "level": "state",
+      "districtNumber": "13",
+      "layerId": "pa-senate"
+    },
+    "name": "Scott Martin",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "135 E. Main St. Suite 1-A, Strasburg, PA 17579",
+      "phone": "717-397-1309"
+    },
+    "email": "smartin@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1763.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-172",
+      "title": "PA State Representative, District 172",
+      "level": "state",
+      "districtNumber": "172",
+      "layerId": "pa-house"
+    },
+    "name": "Sean Dougherty",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "7801-A Hasbrook Ave., Philadelphia, PA 19111",
+      "phone": "215-331-2600"
+    },
+    "email": "repdougherty@pahouse.net",
+    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDqcsfeSV2Emc5tJreNLOLeI1PEIX1XE82Hw&s",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-3",
+      "title": "PA State Senator, District 3",
+      "level": "state",
+      "districtNumber": "3",
+      "layerId": "pa-senate"
+    },
+    "name": "Sharif Street",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4458 A Germantown Ave., Philadelphia, PA 19140",
+      "phone": "215-457-5200"
+    },
+    "email": "street@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1767.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-143",
+      "title": "PA State Representative, District 143",
+      "level": "state",
+      "districtNumber": "143",
+      "layerId": "pa-house"
+    },
+    "name": "Shelby Labs",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1032 N. Easton Road Suite C, Doylestown, PA 18902",
+      "phone": "215-489-2126"
+    },
+    "email": "slabs@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1911.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-88",
+      "title": "PA State Representative, District 88",
+      "level": "state",
+      "districtNumber": "88",
+      "layerId": "pa-house"
+    },
+    "name": "Sheryl Delozier",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2929 Gettysburg Road Suite 6, Camp Hill, PA 17011",
+      "phone": "717-761-4665"
+    },
+    "email": "sdelozie@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1167.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-76",
+      "title": "PA State Representative, District 76",
+      "level": "state",
+      "districtNumber": "76",
+      "layerId": "pa-house"
+    },
+    "name": "Stephanie Borowicz",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "343 Chestnut St., Mifflinburg, PA 17844",
+      "phone": "570-966-0052"
+    },
+    "email": "sborowicz@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1838.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-135",
+      "title": "PA State Representative, District 135",
+      "level": "state",
+      "districtNumber": "135",
+      "layerId": "pa-house"
+    },
+    "name": "Steve Samuelson",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "104 E. Broad St., Bethlehem, PA 18018",
+      "phone": "610-867-3890"
+    },
+    "email": "ssamuels@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/80.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-97",
+      "title": "PA State Representative, District 97",
+      "level": "state",
+      "districtNumber": "97",
+      "layerId": "pa-house"
+    },
+    "name": "Steve Mentzer",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "West Lampeter Township Building 852 Village Road, Lancaster, PA 17602",
+      "phone": "717-464-5285"
+    },
+    "email": "smentzer@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1642.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-10",
+      "title": "PA State Senator, District 10",
+      "level": "state",
+      "districtNumber": "10",
+      "layerId": "pa-senate"
+    },
+    "name": "Steve Santarsiero",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Doylestown Borough Hall 10 Doyle St., Doylestown, PA 18901",
+      "phone": "215-489-5000"
+    },
+    "email": "senatorsantarsiero@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1179.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-53",
+      "title": "PA State Representative, District 53",
+      "level": "state",
+      "districtNumber": "53",
+      "layerId": "pa-house"
+    },
+    "name": "Steve Malagari",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "100 W. Main St. Suite 110, Lansdale, PA 19446",
+      "phone": "267-768-3671"
+    },
+    "email": "repmalagari@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1832.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-189",
+      "title": "PA State Representative, District 189",
+      "level": "state",
+      "districtNumber": "189",
+      "layerId": "pa-house"
+    },
+    "name": "Tarah Probst",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "193 Municipal Drive, Bushkill, PA 18324"
+    },
+    "email": "repprobst@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1982.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-194",
+      "title": "PA State Representative, District 194",
+      "level": "state",
+      "districtNumber": "194",
+      "layerId": "pa-house"
+    },
+    "name": "Tarik Khan",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "4001 Main St. Suite 101, Philadelphia, PA 19127",
+      "phone": "215-482-8726"
+    },
+    "email": "reptarik@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1983.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-87",
+      "title": "PA State Representative, District 87",
+      "level": "state",
+      "districtNumber": "87",
+      "layerId": "pa-house"
+    },
+    "name": "Thomas Kutz",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "South Middleton Township Building 520 Park Drive, Boiling Springs, PA 17007",
+      "phone": "717-258-0247"
+    },
+    "email": "tkutz@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1955.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-106",
+      "title": "PA State Representative, District 106",
+      "level": "state",
+      "districtNumber": "106",
+      "layerId": "pa-house"
+    },
+    "name": "Tom Mehaffie",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1 E. Chocolate Ave. Suite 700, Hershey, PA 17033",
+      "phone": "717-534-1323"
+    },
+    "email": "tmehaffie@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1751.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-29",
+      "title": "PA State Representative, District 29",
+      "level": "state",
+      "districtNumber": "29",
+      "layerId": "pa-house"
+    },
+    "name": "Tim Brennan",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "80 N. Main St. Suite 1A, Doylestown, PA 18901",
+      "phone": "267-884-0395"
+    },
+    "email": "repbrennan@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1943.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-149",
+      "title": "PA State Representative, District 149",
+      "level": "state",
+      "districtNumber": "149",
+      "layerId": "pa-house"
+    },
+    "name": "Tim Briggs",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "554 Shoemaker Road Suite 149, King of Prussia, PA 19406",
+      "phone": "610-768-3135"
+    },
+    "email": "repbriggs@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1159.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-123",
+      "title": "PA State Representative, District 123",
+      "level": "state",
+      "districtNumber": "123",
+      "layerId": "pa-house"
+    },
+    "name": "Tim Twardzik",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "St. Clair Borough Hall 16 S. Third St., St. Clair, PA 17970"
+    },
+    "email": "ttwardzik@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1906.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-48",
+      "title": "PA State Representative, District 48",
+      "level": "state",
+      "districtNumber": "48",
+      "layerId": "pa-house"
+    },
+    "name": "Tim O'Neal",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "190 N. Main St. Suite 308, Washington, PA 15301",
+      "phone": "724-223-4541"
+    },
+    "email": "toneal@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1797.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-26",
+      "title": "PA State Senator, District 26",
+      "level": "state",
+      "districtNumber": "26",
+      "layerId": "pa-senate"
+    },
+    "name": "Tim Kearney",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "51 Long Lane, Upper Darby, PA 19082",
+      "phone": "610-352-3409"
+    },
+    "email": "senatorkearney@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1800.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-17",
+      "title": "PA State Representative, District 17",
+      "level": "state",
+      "districtNumber": "17",
+      "layerId": "pa-house"
+    },
+    "name": "Tim Bonner",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "234 W. Pine St. Unit 1, Grove City, PA 16127",
+      "phone": "724-458-4911"
+    },
+    "email": "tbonner@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1877.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-141",
+      "title": "PA State Representative, District 141",
+      "level": "state",
+      "districtNumber": "141",
+      "layerId": "pa-house"
+    },
+    "name": "Tina Davis",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "3611 Green Lane, Levittown, PA 19057",
+      "phone": "267-580-2660"
+    },
+    "email": "repdavis@pahouse.net",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1204.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-110",
+      "title": "PA State Representative, District 110",
+      "level": "state",
+      "districtNumber": "110",
+      "layerId": "pa-house"
+    },
+    "name": "Tina Pickett",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "320 Main St., Towanda, PA 18848",
+      "phone": "570-265-3124"
+    },
+    "email": "tpickett@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/97.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-98",
+      "title": "PA State Representative, District 98",
+      "level": "state",
+      "districtNumber": "98",
+      "layerId": "pa-house"
+    },
+    "name": "Tom Jones",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "222 S. Market St. Suite 103, Elizabethtown, PA 17022",
+      "phone": "717-367-5525"
+    },
+    "email": "tjones@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1957.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-24",
+      "title": "PA State Senator, District 24",
+      "level": "state",
+      "districtNumber": "24",
+      "layerId": "pa-senate"
+    },
+    "name": "Tracy Pennycuick",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "56 W. 4th St. Floor 2, Red Hill, PA 18076",
+      "phone": "215-541-2388"
+    },
+    "email": "tpennycuick@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1912.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-44",
+      "title": "PA State Representative, District 44",
+      "level": "state",
+      "districtNumber": "44",
+      "layerId": "pa-house"
+    },
+    "name": "Valerie Gaydos",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "1005 Beaver Grade Road Suite 106, Moon Township, PA 15108",
+      "phone": "412-262-3780"
+    },
+    "email": "vgaydos@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1831.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-7",
+      "title": "PA State Senator, District 7",
+      "level": "state",
+      "districtNumber": "7",
+      "layerId": "pa-senate"
+    },
+    "name": "Vincent Hughes",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "2401 N. 54th St., Philadelphia, PA 19131",
+      "phone": "215-879-7777"
+    },
+    "email": "hughes@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/152.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-42",
+      "title": "PA State Senator, District 42",
+      "level": "state",
+      "districtNumber": "42",
+      "layerId": "pa-senate"
+    },
+    "name": "Wayne Fontana",
+    "party": "Democratic",
+    "districtOffice": {
+      "address": "Kenmawr Plaza 524 Pine Hollow Road, Kennedy Township, PA 15136",
+      "phone": "412-331-1208"
+    },
+    "email": "fontana@pasenate.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1041.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-senate-35",
+      "title": "PA State Senator, District 35",
+      "level": "state",
+      "districtNumber": "35",
+      "layerId": "pa-senate"
+    },
+    "name": "Wayne Langerholc",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "999 Eisenhower Blvd. Suite E, Johnstown, PA 15904",
+      "phone": "814-266-2277"
+    },
+    "email": "wlangerholc@pasen.gov",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1764.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-94",
+      "title": "PA State Representative, District 94",
+      "level": "state",
+      "districtNumber": "94",
+      "layerId": "pa-house"
+    },
+    "name": "Wendy Fink",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "100 Redco Ave., Red Lion, PA 17356",
+      "phone": "717-244-9232"
+    },
+    "email": "wfink@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1956.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "office": {
+      "id": "pa-house-183",
+      "title": "PA State Representative, District 183",
+      "level": "state",
+      "districtNumber": "183",
+      "layerId": "pa-house"
+    },
+    "name": "Zach Mako",
+    "party": "Republican",
+    "districtOffice": {
+      "address": "2030 Center St., Northampton, PA 18067",
+      "phone": "610-502-2701"
+    },
+    "email": "zmako@pahousegop.com",
+    "photoUrl": "https://www.palegis.us/resources/images/members/300/1758.jpg",
+    "sourceUrl": "https://data.openstates.org/people/current/pa.csv",
+    "verifiedOn": "2026-08-11"
+  }
+]

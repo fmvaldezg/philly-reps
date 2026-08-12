@@ -1,0 +1,106 @@
+[
+  {
+    "address": "1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+    "coords": [-75.1653, 39.9526],
+    "expected": {
+      "city-limits": null,
+      "council": "5",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "City Hall is in Council District 5 (Councilmember Jeffrey Young Jr.); address is the canonical City Hall address",
+    "note": "Center City, district 5"
+  },
+  {
+    "address": "400 Arch St, Philadelphia, PA 19106",
+    "coords": [-75.1486, 39.9528],
+    "expected": {
+      "city-limits": null,
+      "council": "1",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Mark Squilla (district 1) source URL",
+    "note": "Old City, district 1"
+  },
+  {
+    "address": "606 S 52nd St, Philadelphia, PA 19143",
+    "coords": [-75.2236, 39.9382],
+    "expected": {
+      "city-limits": null,
+      "council": "3",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Jamie Gauthier (district 3) district office address",
+    "note": "West Philly, district 3"
+  },
+  {
+    "address": "5901 Market St, Philadelphia, PA 19139",
+    "coords": [-75.2412, 39.9625],
+    "expected": {
+      "city-limits": null,
+      "council": "4",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Curtis Jones Jr. (district 4) district office address",
+    "note": "Overbrook/Mill Creek, district 4"
+  },
+  {
+    "address": "7552 Frankford Ave, Philadelphia, PA 19136",
+    "coords": [-75.0536, 40.0414],
+    "expected": {
+      "city-limits": null,
+      "council": "6",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Mike Driscoll (district 6) district office address",
+    "note": "Northeast Philly, district 6"
+  },
+  {
+    "address": "4439A Germantown Ave, Philadelphia, PA 19140",
+    "coords": [-75.1641, 40.0379],
+    "expected": {
+      "city-limits": null,
+      "council": "8",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Cindy Bass (district 8) district office address",
+    "note": "Germantown, district 8"
+  },
+  {
+    "address": "1514 E Wadsworth Ave, Philadelphia, PA 19150",
+    "coords": [-75.1668, 40.0636],
+    "expected": {
+      "city-limits": null,
+      "council": "9",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Anthony Phillips (district 9) district office address",
+    "note": "Mt Airy, district 9"
+  },
+  {
+    "address": "2025 Murray St, Philadelphia, PA 19115",
+    "coords": [-75.0786, 40.0776],
+    "expected": {
+      "city-limits": null,
+      "council": "10",
+      "congress": null,
+      "pa-senate": null,
+      "pa-house": null
+    },
+    "verifiedVia": "data/manual/c4_philadelphia_city_council.csv — Brian J. O'Neill (district 10) source URL",
+    "note": "Far Northeast, district 10"
+  }
+]

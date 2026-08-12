@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Jeffrey Young, JR",
+    "office": {
+      "title": "City Council, District 5",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "5",
+      "id": "philly-council-5"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 586, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3442"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=1637%20N%207th%20St%2C%20Philadelphia%2C%20PA%2C%2019122%2C%20USA",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Mark Squilla",
+    "office": {
+      "title": "City Council, District 1",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "1",
+      "id": "philly-council-1"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 332, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3458"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=400%20Arch%20St%2C%20Philadelphia%2C%20Pennsylvania%2C%2019106",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Kenyatta Johnson",
+    "office": {
+      "title": "City Council, District 2",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "2",
+      "id": "philly-council-2"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 580, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3412"
+    },
+    "districtOffice": {
+      "address": "City Hall, Room 580",
+      "phone": "215-686-3413"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=Penrose%20Ferry%20Rd%2C%20Philadelphia%2C%20Pennsylvania%2C%2019145",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Jamie Gauthier",
+    "office": {
+      "title": "City Council, District 3",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "3",
+      "id": "philly-council-3"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 316, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-0459"
+    },
+    "districtOffice": {
+      "address": "606 S 52nd St, Philadelphia, PA 19143",
+      "phone": "215-472-2419"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=4224%20Pine%20St%2C%20Philadelphia%2C%20Pennsylvania%2C%2019104",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Curtis Jones Jr.",
+    "office": {
+      "title": "City Council, District 4",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "4",
+      "id": "philly-council-4"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 404, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3416"
+    },
+    "districtOffice": {
+      "address": "5901 Market Street - Suite 107"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=1412%20N%2057th%20St%2C%20Philadelphia%2C%20Pennsylvania%2C%2019131",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Mike Driscoll",
+    "office": {
+      "title": "City Council, District 6",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "6",
+      "id": "philly-council-6"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 313, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3444"
+    },
+    "districtOffice": {
+      "address": "7552 Frankford Ave",
+      "phone": "215-683-9220"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=St%20Stephen's%20United%20Church%20of%20Christ",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Quetcy Lozada",
+    "office": {
+      "title": "City Council, District 7",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "7",
+      "id": "philly-council-7"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 484, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3448"
+    },
+    "districtOffice": {
+      "address": "4821-A Frankford Avenue",
+      "phone": "215-764-1542"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=449-499%20E%20Tioga%20St%2C%20Philadelphia%2C%20Pennsylvania%2C%2019134",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Cindy Bass",
+    "office": {
+      "title": "City Council, District 8",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "8",
+      "id": "philly-council-8"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 508, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3424"
+    },
+    "districtOffice": {
+      "address": "4439A Germantown Ave",
+      "phone": "215-685-9182"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=The%20Hansberry%20Garden",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Anthony Phillips",
+    "office": {
+      "title": "City Council, District 9",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "9",
+      "id": "philly-council-9"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 577, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3455"
+    },
+    "districtOffice": {
+      "address": "1514 E. Wadsworth Avenue",
+      "phone": "215-686-3454"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=246%20W%20Nedro%20Ave%2C%20Philadelphia%2C%20Pennsylvania%2C%2019120",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Brian J. O'Neill",
+    "office": {
+      "title": "City Council, District 10",
+      "level": "city",
+      "layerId": "council",
+      "districtNumber": "10",
+      "id": "philly-council-10"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 562, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3422"
+    },
+    "sourceUrl": "https://philacitycouncil.maps.arcgis.com/apps/instant/lookup/index.html?appid=9cf0fb3394914cd0a8a7f22ea1395d55#find=2025%20Murray%20St%2C%20Philadelphia%2C%20Pennsylvania%2C%2019115",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Katherine Gilmore Richardson",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-katherine-gilmore-richardson"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 581, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-0454"
+    },
+    "sourceUrl": "https://phlcouncil.com/KatherineGilmoreRichardson/",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Isaiah Thomas",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-isaiah-thomas"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 330, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3446"
+    },
+    "sourceUrl": "https://phlcouncil.com/IsaiahThomas/",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Jim Harrity",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-jim-harrity"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 408, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-8295"
+    },
+    "sourceUrl": "https://phlcouncil.com/JimHarrity/",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Nina Ahmad",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-nina-ahmad"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 577, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3450"
+    },
+    "sourceUrl": "https://phlcouncil.com/NinaAhmad/",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Rue Landau",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-rue-landau"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 592, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3420"
+    },
+    "sourceUrl": "https://phlcouncil.com/RueLandau/",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Kendra Brooks",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-kendra-brooks"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 312, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-0461"
+    },
+    "sourceUrl": "https://phlcouncil.com/KendraBrooks/",
+    "verifiedOn": "2026-08-11"
+  },
+  {
+    "name": "Nicolas O'Rourke",
+    "office": {
+      "title": "City Council, At-Large",
+      "level": "city",
+      "layerId": "council",
+      "id": "philly-council-at-large-nicolas-o-rourke"
+    },
+    "cityHallOffice": {
+      "address": "City Hall, Room 319A, 1400 John F Kennedy Blvd, Philadelphia, PA 19107",
+      "phone": "215-686-3452"
+    },
+    "sourceUrl": "https://phlcouncil.com/NicolasOrourke/",
+    "verifiedOn": "2026-08-11"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "philly-reps",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start --web",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint . && prettier --check .",
+    "data:build": "tsx scripts/build-districts.ts",
+    "data:verify": "tsx scripts/verify-data.ts"
+  },
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "^7.1.0",
+    "expo": "^57.0.12",
+    "expo-router": "^57.0.12",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-native": "^0.86.2",
+    "react-native-web": "^0.21.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.57.0",
+    "@expo/metro-runtime": "^57.0.9",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20.14.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "mapshaper": "^0.7.51",
+    "prettier": "^3.3.0",
+    "tsx": "^4.23.12",
+    "typescript": "^6.0.3",
+    "vitest": "^2.0.0",
+    "yaml": "^2.9.0"
+  }
+}

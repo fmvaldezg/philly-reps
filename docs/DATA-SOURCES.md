@@ -29,7 +29,7 @@ https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Council_Distri
 ```
 Catalog page: `https://opendataphilly.org/datasets/city-council-districts/`
 Check the catalog page first — if a 2028 vintage has appeared, use it.
-Verified: Yes · Features: 10 · Fields: Geometry, objectid, district, shape_leng, distric_num, Shape_Area, Shape_Length.
+Verified: Yes · Features: 10 · Fields: Geometry, objectid, district, shape_leng, district_num, Shape__Area, Shape__Length.
 
 ### A3. PA congressional districts, 2024 🔍
 PennDOT-digitized, hosted by PASDA. Direct GeoJSON:
@@ -85,13 +85,13 @@ Record the **exact geography key strings** it returns — they embed a Congress 
 vintage year (`119th Congressional Districts`, `2024 State Legislative Districts - Upper`)
 and will change. Save the whole response to `src/lib/geo/__fixtures__/census-response.json`
 so tests don't hit the network.
-Verified: ______ · Geography keys: ______
+Verified: yes · Geography keys: "119th Congressional Districts", "2020 Census Blocks","2024 State Legislative Districts - Lower", "2024 State Legislative Districts - Upper", "Census Tracts", "Combined Statistical Areas", "Counties", "County Subdivisions", "Incorporated Places", "States","Urban Areas"
 
 ### B2. Nominatim (fallback only) 🔍
 `https://nominatim.openstreetmap.org/search?format=jsonv2&q=...`
 Read the usage policy before writing the client — it requires an identifying User-Agent,
 caps you near 1 req/sec, and prohibits bulk use. Confirm the current terms yourself.
-Verified: ______
+Verified: Yes
 
 ---
 
@@ -113,10 +113,14 @@ geo endpoint's response shape for a Philadelphia lat/lng. Bulk downloads at
 ⚠️ Now operated by Plural. Treat as a build-time dependency you could survive losing.
 Verified: Yes · Key obtained: f6bd6eec-1b28-4e76-8d7a-5f26b4ea2436
 
-### C3. 5 Calls representatives API 🔍
-`https://5calls.org/representatives-api/` — free, covers Congress plus statewide
-officials. Use as a cross-check on phone numbers, not as the primary.
-Verified: Yes · Key obtained: 1d1b5346a681af3f4fe770e3
+### C3. 5 Calls representatives API ❌
+`https://api.5calls.org/v1/representatives?location=<lat>,<lng>` — was a free
+cross-check on phone numbers, covering Congress plus statewide officials.
+Dropped: the API key recorded here returns `{"error":"not authorized"}` as of
+2026-08-11. The 5 Calls API page (https://5calls.org/representatives-api/)
+now gates API docs behind an email signup form. Not usable until access is
+re-established. C1 + C2 are sufficient as primary sources.
+Verified: No · Key 1d1b5346a681af3f4fe770e3 rejected on 2026-08-11
 
 ### C4. Philadelphia City Council — **manual, no API** ❓
 Ten district members plus seven at-large. Source: `phlcouncil.com` and `phila.gov`.

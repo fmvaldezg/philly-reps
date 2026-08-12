@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.expo/
+coverage/
+pnpm-lock.yaml
+data/
+docs/
+assets/
+src/lib/geo/__fixtures__/

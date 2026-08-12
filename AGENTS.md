@@ -13,7 +13,7 @@ This file is conventions and boundaries only.
 - `pnpm test src/lib/districts.test.ts` — single file
 - `pnpm typecheck` — `tsc --noEmit`, must be clean
 - `pnpm lint` — eslint + prettier check
-- `pnpm data:build` — regenerates `assets/data/*` from upstream sources (network, slow)
+- `pnpm data:build` — regenerates `assets/data/*` from upstream sources (network, slow) "— created in step 2, does not exist yet"
 - `pnpm data:verify` — checks every bundled district file loads and every rep record
   has a `source_url` and `verified_on`
 
@@ -64,8 +64,12 @@ This file is conventions and boundaries only.
 ## Boundaries
 
 - Do not add analytics, telemetry, or ad SDKs.
-- Do not add a backend server or database. This ships as a static web build plus native
-  binaries; the only network calls are the geocoder and basemap tiles.
+- Do not add a backend server or database — with one exception: a single stateless
+  proxy endpoint at `/api/geocode` that forwards requests to the Census geocoder.
+  It holds no state, caches nothing, and makes no decisions. No other backend
+  endpoint is permitted. This ships as a static web build plus native binaries;
+  the only network calls are the geocoder (via the proxy on web, direct on native)
+  and basemap tiles.
 - Do not edit files in `assets/data/` by hand. Change `scripts/` and re-run `pnpm data:build`.
   The one exception is `data/manual/philly-council.json`, which has no upstream API — edit
   it directly and bump `verified_on`.
