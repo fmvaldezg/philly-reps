@@ -17,7 +17,9 @@ Philadelphia first; the architecture should not make a second city impossible.
 
 ## User flow
 
-1. Address entry. One text field, autocomplete off, plus "use my location" on native.
+1. Address entry. One text field, autocomplete off, plus "use my location" (browser
+   Geolocation API on web, `expo-location` on native). Skips geocoding entirely — resolves
+   districts directly from the device coordinate.
 2. Geocode → `[lng, lat]` + a normalized display address. Show the match back to the user
    and let them correct it before results ("Did you mean 1234 Market St?").
 3. If the point is outside the Philadelphia city boundary, stop with an explanatory

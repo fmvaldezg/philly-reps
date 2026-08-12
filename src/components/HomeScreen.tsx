@@ -18,10 +18,12 @@ import { Map } from "./Map";
 import { ResultsList } from "./ResultsList";
 import { colors, geometry } from "../styles/tokens";
 import { defaultFetch } from "../lib/net/fetch";
+import { getCurrentPosition } from "../lib/geo/currentPosition";
 import { isDistrictId, tabGroups } from "../lib/districts/registry";
 import {
   geocodeAddress,
   resolveAndLookup,
+  resolveAndLookupFromPoint,
   type LookupError,
 } from "../lib/reps/lookup";
 import { asLngLat } from "../lib/geo/types";
@@ -32,6 +34,7 @@ import type { LookupResult, Office, Official } from "../lib/reps/types";
 type State =
   | { phase: "idle" }
   | { phase: "geocoding" }
+  | { phase: "locating" }
   | { phase: "confirm"; matches: readonly GeocodeMatch[] }
   | { phase: "resolving" }
   | { phase: "results"; result: LookupResult }
@@ -97,13 +100,32 @@ export function HomeScreen() {
     setState({ phase: "confirm", matches: r.value.matches });
   }
 
-  async function handleConfirm(match: GeocodeMatch) {
-    setState({ phase: "resolving" });
-    const result = await resolveAndLookup(match);
+  function applyResults(result: LookupResult) {
     setState({ phase: "results", result });
     const group = defaultActiveGroup(result);
     setActiveKey(group.key);
     setFocus(defaultFocusForGroup(result.officials, group));
+  }
+
+  async function handleConfirm(match: GeocodeMatch) {
+    setState({ phase: "resolving" });
+    const result = await resolveAndLookup(match);
+    applyResults(result);
+  }
+
+  async function handleUseLocation() {
+    setState({ phase: "locating" });
+    const r = await getCurrentPosition();
+    if (!r.ok) {
+      setState({ phase: "error", error: r.error });
+      return;
+    }
+    setState({ phase: "resolving" });
+    const result = await resolveAndLookupFromPoint(
+      r.value,
+      "Your current location",
+    );
+    applyResults(result);
   }
 
   function handleSelectGroup(group: TabGroup) {
@@ -142,10 +164,14 @@ export function HomeScreen() {
         </Text>
       </View>
 
-      {state.phase === "idle" || state.phase === "geocoding" ? (
+      {state.phase === "idle" ||
+      state.phase === "geocoding" ||
+      state.phase === "locating" ? (
         <AddressInput
           onSubmit={handleSearch}
+          onUseLocation={handleUseLocation}
           busy={state.phase === "geocoding"}
+          locating={state.phase === "locating"}
         />
       ) : null}
 

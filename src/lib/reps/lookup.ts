@@ -18,6 +18,7 @@ import {
   type GeocodeMatch,
 } from "../geo/geocode.ts";
 import type { FetchFn } from "../geo/geocode.ts";
+import type { CurrentPositionError } from "../geo/currentPosition.ts";
 import { isInCity, resolveLayer } from "../districts/resolve.ts";
 import { districtLayers } from "../districts/registry.ts";
 import type { LngLat } from "../geo/types.ts";
@@ -35,7 +36,8 @@ const federalReps = federalRepsRaw as readonly Official[];
 const stateReps = stateRepsRaw as readonly Official[];
 const cityReps = cityRepsRaw as readonly Official[];
 
-export type LookupError = GeocodeError | { kind: "out-of-bounds" };
+export type LookupError =
+  GeocodeError | { kind: "out-of-bounds" } | CurrentPositionError;
 
 export interface GeocodeStep {
   matches: readonly GeocodeMatch[];
@@ -55,11 +57,10 @@ export async function geocodeAddress(
 }
 
 /**
- * Step 2: resolve districts for a confirmed coordinate and look up reps.
+ * Resolve districts for a confirmed coordinate and look up reps.
  *
  * Returns the matched address, in-city flag, and the officials that
- * represent this point. Rep data comes from {@link lookupReps} — currently
- * a stub that returns empty (step 7 fills it in).
+ * represent this point.
  */
 export async function resolveAndLookup(
   match: GeocodeMatch,
@@ -79,8 +80,6 @@ export async function resolveAndLookup(
     }
   }
 
-  // Look up reps for the resolved districts. Step 7 fills this in; for now
-  // it returns an empty list so the UI can ship with district resolution only.
   const officials = await lookupReps(resolved, inCity);
 
   return {
@@ -89,6 +88,22 @@ export async function resolveAndLookup(
     inCity,
     officials,
   };
+}
+
+/**
+ * Same as {@link resolveAndLookup}, but for a point that came from the
+ * device's location rather than a geocoded address — there's no Census
+ * cross-check data for a raw coordinate, so `geographies` is empty.
+ */
+export async function resolveAndLookupFromPoint(
+  point: LngLat,
+  matchedAddress: string,
+): Promise<LookupResult> {
+  return resolveAndLookup({
+    coords: point,
+    matchedAddress,
+    geographies: { congress: null, "pa-senate": null, "pa-house": null },
+  });
 }
 
 const ALL_REPS: readonly Official[] = [

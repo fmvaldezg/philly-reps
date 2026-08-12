@@ -56,6 +56,21 @@ function explain(error: LookupError): { title: string; body: string } {
         title: "Unexpected response",
         body: "The address service returned data we couldn't read. Try again, or try a different address.",
       };
+    case "permission-denied":
+      return {
+        title: "Location permission denied",
+        body: "We can't find your representatives without your location. Allow location access, or type your address instead.",
+      };
+    case "unavailable":
+      return {
+        title: "Couldn't get your location",
+        body: "Your device didn't return a location. Try again, or type your address instead.",
+      };
+    case "unsupported":
+      return {
+        title: "Location isn't available here",
+        body: "This browser or device doesn't support location lookup. Type your address instead.",
+      };
   }
 }
 

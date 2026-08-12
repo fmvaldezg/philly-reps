@@ -78,6 +78,7 @@ export default [
       parserOptions: { ecmaVersion: 2022, sourceType: "module" },
       globals: {
         HTMLDivElement: "readonly",
+        navigator: "readonly",
       },
     },
     plugins: { "@typescript-eslint": tseslint },

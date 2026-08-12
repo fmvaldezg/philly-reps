@@ -13,7 +13,17 @@ export default {
   },
   // maplibre-react-native has native modules — it needs a prebuilt dev
   // client (expo prebuild), it won't run in plain Expo Go.
-  plugins: ["expo-router", "@maplibre/maplibre-react-native"],
+  plugins: [
+    "expo-router",
+    "@maplibre/maplibre-react-native",
+    [
+      "expo-location",
+      {
+        locationWhenInUsePermission:
+          "Philly Reps uses your location to find your representatives without typing an address. Your location is never stored or sent anywhere except the district lookup on your device.",
+      },
+    ],
+  ],
   experiments: {
     tsconfigPaths: true,
   },
